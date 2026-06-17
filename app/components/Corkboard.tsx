@@ -8,9 +8,9 @@ import ProjectsSection from "./ProjectsSection";
 import styles from "../styles/corkboard.module.css";
 
 const positions = {
-  projects: { x: -500, y: 0 },
-  about: { x: -2500, y: 0 },
-  experience: { x: -4500, y: 0 },
+  about: { x: 0, y: 0 },
+  experience: { x: 0, y: -1200 },
+  projects: { x: 0, y: -2400 },
 };
 
 type Section = keyof typeof positions;
@@ -43,17 +43,17 @@ export default function Corkboard() {
               duration: 1.2,
               ease: "easeInOut",
             }}
-          >
-            <div className={styles.projects}>
-              <ProjectsSection />
-            </div>
-            
+          > 
             <div className={styles.about}>
               <AboutSection />
             </div>
     
             <div className={styles.experience}>
               <ExperienceSection />
+            </div>
+
+            <div className={styles.projects}>
+              <ProjectsSection />
             </div>
           </motion.div>
         </div>

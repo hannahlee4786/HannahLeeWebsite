@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <div
       style={{
-        width: 1500,
+        width: 850,
       }}
     >
       <div style={{ textAlign: "center" }}>

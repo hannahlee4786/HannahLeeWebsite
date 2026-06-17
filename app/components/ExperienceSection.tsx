@@ -4,7 +4,7 @@ export default function ExperienceSection() {
   return (
     <div
       style={{
-        width: 1500,
+        width: 850,
       }}
     >
       {/* Experience */}

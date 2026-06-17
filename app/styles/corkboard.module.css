@@ -17,8 +17,7 @@
 
 .board {
   position: relative;
-  width: 7000px;
-  height: 2000px;
+  height: 4500px;
 
   background-image: url("../../public/images/corkboard.png");
   background-repeat: repeat;
@@ -38,23 +37,11 @@
   cursor: pointer;
 }
 
-/* Locations on giant board */
+.about,
+.experience,
 .projects {
-  position: absolute;
-  left: 500px;
-  top: 50px;
-}
-
-.about {
-  position: absolute;
-  left: 2500px;
-  top: 50px;
-}
-
-.experience {
-  position: absolute;
-  left: 4500px;
-  top: 50px;
+  width: 850px;
+  margin: 0 auto;
 }
 
 /* temporary */

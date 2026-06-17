@@ -4,7 +4,7 @@ export default function ProjectsSection() {
   return (
     <div
       style={{
-        width: 1500,
+        width: 850,
       }}
     >
       <h1>projects</h1>
