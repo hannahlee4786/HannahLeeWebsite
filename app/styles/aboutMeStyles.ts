@@ -23,15 +23,11 @@ const styles = {
 
   polaroid: {
     position: "relative" as const,
-    backgroundColor: "white",
+    backgroundColor: "#F0F0F0",
     padding: "16px 16px 50px 16px",
-    boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
     display: "inline-block",
     borderRadius: 2,
-  },
-
-  polaroid1: {
-    transform: "rotate(-12deg)",
   },
   
   ribbon: {
@@ -48,6 +44,65 @@ const styles = {
     display: "block",
   },
 
+  h31: {
+    position: "absolute" as const,
+    top: 220,
+    left: 60,
+    fontFamily: "Sophie Comic",
+    fontSize: 40
+  },
+
+  h32: {
+    position: "absolute" as const,
+    top: 240,
+    left: 64,
+    fontFamily: "Sophie Comic",
+    fontSize: 36
+  },
+
+  h33: {
+    position: "absolute" as const,
+    top: 230,
+    left: 70,
+    fontFamily: "Sophie Comic",
+    fontSize: 36
+  },
+
+  h34: {
+    position: "absolute" as const,
+    top: 238,
+    left: 54,
+    fontFamily: "Sophie Comic",
+    fontSize: 36
+  },
+
+  usc: {
+    zIndex: 30,
+    position: "absolute" as const,
+    top: -50,
+    left: -30,
+    width: 160,
+  },
+
+  flower: {
+    zIndex: 30,
+    position: "absolute" as const,
+    top: 50,
+    left: 590,
+    width: 160,
+  }, 
+
+  receipt: {
+    position: "absolute" as const,
+    left: -90,
+    top: 240,
+    height: 480,
+    zIndex: 20,
+    padding: 8,
+    backgroundColor: "#ed8d3e",
+    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
+  },
+
   introContainer: {
     position: "relative" as const,
     display: "inline-block",
@@ -58,18 +113,17 @@ const styles = {
   introPaper: {
     width: 700,
     display: "block",
-    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.15))",
-    transform: "rotate(5deg)",
+    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
   },
 
   introText: {
     position: "absolute" as const,
     fontFamily: "Special Elite",
-    top: 116,
-    left: 68,
-    width: 570,
+    top: 76,
+    left: 76,
+    width: 560,
     marginTop: 30,
-    transform: "rotate(5deg)",
+    textAlign: "center" as const,
   },
   
   introHeading: {
@@ -86,11 +140,19 @@ const styles = {
   
   star: {
     position: "absolute" as const,
-    bottom: -25,
-    right: -25,
+    bottom: -10,
+    right: 50,
     width: 120,
     zIndex: 10,
     transform: "rotate(-14deg)",
+  },
+
+  pinkTape: {
+    position: "absolute" as const,
+    top: -36,
+    left: 200,
+    width: 300,
+    zIndex: 10,
   },
 
   heartContainer: {
@@ -101,116 +163,82 @@ const styles = {
   },
 
   heart: {
+    zIndex: 20,
     position: "absolute" as const,
-    top: 30,
-    left: -130,
-    width: 600,
-    transform: "rotate(-14deg)",
+    left: 200,
+    top: 620,
+    width: 430,
+  },
+
+  purpleTape: {
+    position: "absolute" as const,
+    top: 60,
+    left: 260,
+    width: 200,
+    zIndex: 10,
+  },
+
+  morePaper: {
+    position: "absolute" as const,
+    width: 400,
+    top: 70,
+    left: 126,
+    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
   },
   
   moreText: {
     position: "absolute" as const,
-    top: 198,
-    left: -10,
-    width: 340,
-    transform: "rotate(-14deg)",
+    top: 146,
+    left: 220,
+    width: 240,
     fontFamily: "Special Elite",
     textAlign: 'center' as const,
   },
 
   moreParagraph: {
     margin: 0,
-    lineHeight: 1.8,
-    fontSize: "1rem",
-    color: "white"
+    lineHeight: 2.35,
+    fontSize: "1.1rem",
+    color: "black"
   },
+
+  polaroidsContainer: {
+    // backgroundColor: "pink",
+    position: "relative" as const,
+    top: -50,
+    left: 40
+  }, 
 
   polaroid2: {
     right: -500,
     top: 36,
-    transform: "rotate(10deg)",
   },
 
   polaroid3: {
     right: -540,
     top: 150,
-    transform: "rotate(-10deg)",
   },
 
   matcha: {
     position: "absolute" as const,
     top: -80,
-    left: -140,
+    left: -160,
     width: 130,
     zIndex: 10,
-    transform: "rotate(-4deg)",
   },
 
   polaroid4: {
     right: -600,
     top: 60,
-    transform: "rotate(-3deg)",
   },
 
-  experienceContainer: {
-    position: "relative" as const,
-    width: 600,
-    height: 700,
-    marginTop: 30
-  },
-
-  paper1Container: {
-    position: "relative" as const,
-    marginTop: 30,
-    left: -100,
-    top: 60
-  }, 
-
-  paper1: {
-    width: 894,
-    display: "block",
-    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.15))",
-    transform: "rotate(-3deg)",
-  },
-
-  paper1Text: {
+  record: {
     position: "absolute" as const,
-    fontFamily: "Special Elite",
-    top: 98,
-    left: 46,
-    width: 820,
-    marginTop: 30,
-    transform: "rotate(-3deg)",
-    margin: 0,
-    lineHeight: 1.8,
-    fontSize: "1.05rem",
-  },
-
-  illoominate: {
-    position: "absolute" as const,
-    top: -170,
-    left: -90,
-    width: 300,
+    width: 260,
+    bottom: -70,
+    left: 360,
     zIndex: 10,
-    transform: "rotate(-8deg)",
-  },
-
-  aws: {
-    position: "absolute" as const,
-    top: 220,
-    right: -330,
-    width: 130,
-    zIndex: 10,
-    transform: "rotate(-3deg)",
-  },
-
-  typescript: {
-    position: "absolute" as const,
-    top: 240,
-    right: -220,
-    width: 130,
-    zIndex: 10,
-    transform: "rotate(5deg)",
+    transform: "rotate(-45deg)",
   }
 };
 

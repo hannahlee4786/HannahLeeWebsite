@@ -17,7 +17,7 @@
 
 .board {
   position: relative;
-  height: 4500px;
+  height: 2000px;
 
   background-image: url("../../public/images/corkboard.png");
   background-repeat: repeat;
@@ -45,7 +45,7 @@
 }
 
 /* temporary */
-.projects {
+/* .projects {
   border: 5px solid red;
 }
 
@@ -55,4 +55,4 @@
 
 .experience {
   border: 5px solid green;
-}
+} */
