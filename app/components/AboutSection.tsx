@@ -78,6 +78,12 @@ export default function AboutSection() {
             alt="Green star"
             style={styles.star}
           />
+
+          <img
+            src="/images/warriors-wax.png"
+            alt="Golden state warriors wax stamp"
+            style={styles.warriors}
+          />
         </div>
       </div>
 
@@ -154,8 +160,33 @@ export default function AboutSection() {
       </div>
 
       {/* Last section */}
-      <div>
-        
+      <div style={styles.lastContainer}>
+        <img
+          src="/images/pink-paper.png"
+          alt="Background paper for ending paragraph"
+          style={styles.lastPaper}
+        />
+
+        <div style={styles.lastText}>
+          <p style={styles.lastParagraph}>
+            {"Feel free to connect with me below :)"}
+          </p>
+        </div>
+
+        <div style={{ ...styles.polaroid, ...styles.polaroid5 }}>
+          <img
+            src="/images/fair.jpg"
+            alt="Picture at the fair"
+            style={styles.picture}
+          />
+          <h3 style={styles.h35}>@alameda fair</h3>
+        </div>
+
+        <img
+          src="/images/photo-strip.jpg"
+          alt="Photo strip with friend"
+          style={styles.photoStrip}
+        />
       </div>
     </div>
   );

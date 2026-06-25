@@ -76,6 +76,14 @@ const styles = {
     fontSize: 36
   },
 
+  h35: {
+    position: "absolute" as const,
+    top: 230,
+    left: 24,
+    fontFamily: "Sophie Comic",
+    fontSize: 32
+  },
+
   usc: {
     zIndex: 30,
     position: "absolute" as const,
@@ -99,7 +107,7 @@ const styles = {
     height: 480,
     zIndex: 20,
     padding: 8,
-    backgroundColor: "#ed8d3e",
+    backgroundColor: "#1c6659",
     filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
   },
 
@@ -147,6 +155,15 @@ const styles = {
     transform: "rotate(-14deg)",
   },
 
+  warriors: {
+    position: "absolute" as const,
+    bottom: -115,
+    left: 90,
+    width: 250,
+    zIndex: 10,
+    transform: "rotate(-14deg)",
+  },
+
   pinkTape: {
     position: "absolute" as const,
     top: -36,
@@ -157,7 +174,6 @@ const styles = {
 
   heartContainer: {
     position: "relative" as const,
-    width: 600,
     height: 700,
     // backgroundColor: "white"
   },
@@ -228,8 +244,8 @@ const styles = {
   },
 
   polaroid4: {
-    right: -600,
-    top: 60,
+    left: 175,
+    top: 390,
   },
 
   record: {
@@ -239,6 +255,49 @@ const styles = {
     left: 360,
     zIndex: 10,
     transform: "rotate(-45deg)",
+  },
+
+  lastContainer: {
+    position: "relative" as const,
+    height: 400,
+    // backgroundColor: "blue"
+  },
+
+  lastPaper: {
+    width: 600,
+    position: "absolute" as const,
+    top: 30,
+    right: -120,
+    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
+  },
+
+  lastText: {
+    position: "absolute" as const,
+    top: 140,
+    right: 50,
+    width: 250,
+    fontFamily: "Special Elite",
+    textAlign: 'center' as const,
+  },
+
+  lastParagraph: {
+    margin: 0,
+    lineHeight: 2.15,
+    fontSize: "1.5rem",
+    color: "black"
+  },
+
+  polaroid5: {
+    position: "absolute" as const,
+    top: 60,
+    left: -50
+  },
+
+  photoStrip: {
+    width: 140,
+    position: "absolute" as const,
+    top: -60,
+    left: 200
   }
 };
 
