@@ -100,6 +100,14 @@ const styles = {
     width: 160,
   }, 
 
+  flower2: {
+    zIndex: 30,
+    position: "absolute" as const,
+    top: 150,
+    left: -160,
+    width: 160,
+  }, 
+
   receipt: {
     position: "absolute" as const,
     left: -90,
@@ -107,7 +115,7 @@ const styles = {
     height: 480,
     zIndex: 20,
     padding: 8,
-    backgroundColor: "#1c6659",
+    backgroundColor: "#b13c67",
     filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
   },
 
@@ -230,6 +238,14 @@ const styles = {
     top: 36,
   },
 
+  mango: {
+    position: "absolute" as const,
+    bottom: -140,
+    right: 10,
+    width: 130,
+    transform: "rotate(18deg)",
+  },
+
   polaroid3: {
     right: -540,
     top: 150,
@@ -266,7 +282,7 @@ const styles = {
   lastPaper: {
     width: 600,
     position: "absolute" as const,
-    top: 30,
+    top: 44,
     right: -120,
     filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
   },
@@ -298,6 +314,23 @@ const styles = {
     position: "absolute" as const,
     top: -60,
     left: 200
+  },
+
+  orangeClip: {
+    position: "absolute" as const,
+    top: -124,
+    left: 212,
+    width: 120,
+    zIndex: 10,
+  },
+
+  bottleCap: {
+    position: "absolute" as const,
+    top: 120,
+    left: -60,
+    width: 120,
+    zIndex: 10,
+    transform: "rotate(-10deg)",
   }
 };
 
