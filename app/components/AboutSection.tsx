@@ -90,6 +90,12 @@ export default function AboutSection() {
       {/* Fun Section */}
       <div style={styles.heartContainer}>
         <img
+          src="/images/blue-flower-2.png"
+          alt="Blue flower patch with green center"
+          style={styles.flower2}
+        />
+
+        <img
           src="/images/music-receipt.png"
           alt="Receipt with favorites songs"
           style={styles.receipt}
@@ -136,6 +142,12 @@ export default function AboutSection() {
           </div>
           <div style={{ ...styles.polaroid, ...styles.polaroid3 }}>
             <img
+              src="/images/mango.png"
+              alt="Mango sticker"
+              style={styles.mango}
+            />
+
+            <img
               src="/images/mango-shaved-ice.png"
               alt="Mango shaved ice with Jellycats"
               style={styles.picture}
@@ -175,12 +187,23 @@ export default function AboutSection() {
 
         <div style={{ ...styles.polaroid, ...styles.polaroid5 }}>
           <img
+            src="/images/bottle-cap.png"
+            alt="Cotton candy bottle cap"
+            style={styles.bottleCap}
+          />
+          <img
             src="/images/fair.jpg"
             alt="Picture at the fair"
             style={styles.picture}
           />
           <h3 style={styles.h35}>@alameda fair</h3>
         </div>
+
+        <img
+          src="/images/orange-clip.png"
+          alt="Orange clip"
+          style={styles.orangeClip}
+        />
 
         <img
           src="/images/photo-strip.jpg"
