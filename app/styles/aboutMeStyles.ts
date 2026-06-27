@@ -6,11 +6,75 @@ const styles = {
 
   mainHeader: {
     height: 180,
+    width: 1000,
     marginTop: 40,
     marginBottom: 50,
     position: "relative" as const,
-    left: -44,
-    // backgroundColor: "aliceblue"
+    left: -48,
+    overflow: "visible",
+  },
+
+  letterH1: {
+    height: 150,
+    position: "absolute" as const,
+    top: 10,
+    left: -10,
+  },
+
+  letterA1: {
+    height: 150,
+    position: "absolute" as const,
+    top: 14,
+    left: 105,
+  },
+
+  letterN1: {
+    height: 110,
+    position: "absolute" as const,
+    top: 30,
+    left: 224,
+  },
+
+  letterN2: {
+    height: 120,
+    position: "absolute" as const,
+    top: 24,
+    left: 304,
+  },
+
+  letterA2: {
+    height: 110,
+    position: "absolute" as const,
+    top: 30,
+    left: 410,
+  },
+
+  letterH2: {
+    height: 130,
+    position: "absolute" as const,
+    top: 22,
+    left: 506,
+  },
+
+  letterL1: {
+    height: 120,
+    position: "absolute" as const,
+    top: 30,
+    left: 650,
+  },
+
+  letterE1: {
+    height: 110,
+    position: "absolute" as const,
+    top: 40,
+    left: 750,
+  },
+
+  letterE2: {
+    height: 110,
+    position: "absolute" as const,
+    top: 40,
+    left: 850,
   },
 
   polaroidContainer: {
