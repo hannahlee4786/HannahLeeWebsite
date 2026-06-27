@@ -17,7 +17,7 @@
 
 .board {
   position: relative;
-  height: 2000px;
+  height: 2100px;
 
   background-image: url("../../public/images/corkboard.png");
   background-repeat: repeat;

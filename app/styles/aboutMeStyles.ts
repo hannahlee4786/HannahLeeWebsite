@@ -419,6 +419,40 @@ const styles = {
     width: 120,
     zIndex: 10,
   },
+
+  linkedin: {
+    position: "absolute" as const,
+    bottom: -30,
+    right: 350,
+    width: 120,
+    zIndex: 30,
+  },
+
+  github: {
+    position: "absolute" as const,
+    bottom: -30,
+    right: 220,
+    width: 120,
+    zIndex: 30,
+  },
+
+  gmail: {
+    position: "absolute" as const,
+    bottom: -30,
+    right: 90,
+    width: 120,
+    zIndex: 30,
+  },
+
+  footer: {
+    // backgroundColor: "white",
+    marginTop: 70,
+    fontFamily: "Sophie Comic",
+    textAlign: "center",
+    fontSize: 36,
+    color: "#1e0a44",
+    fontWeight: "bold",
+  }
 };
 
 export default styles;

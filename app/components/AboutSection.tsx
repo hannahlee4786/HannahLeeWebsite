@@ -378,7 +378,49 @@ export default function AboutSection() {
             style={styles.photoStrip}
           />
         </motion.div>
+
+        <a
+          href="https://www.linkedin.com/in/hannah-lee1107"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <motion.img
+            src="/images/linkedin.png"
+            alt="LinkedIn bottle cap"
+            style={styles.linkedin}
+            whileHover={{ rotate: -5, scale: 1.4, zIndex: 50, y: -4, cursor: "pointer" }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+        </a>
+
+        <a
+          href="https://github.com/hannahlee4786"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <motion.img
+            src="/images/github.png"
+            alt="Github bottle cap"
+            style={styles.github}
+            whileHover={{ rotate: 5, scale: 1.4, zIndex: 50, y: -4, cursor: "pointer" }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+        </a>
+
+        <a href="mailto:hlee4786@usc.edu">
+          <motion.img
+            src="/images/gmail.png"
+            alt="Gmail bottle cap"
+            style={styles.gmail}
+            whileHover={{ rotate: -5, scale: 1.4, zIndex: 50, y: -4, cursor: "pointer" }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+        </a>
       </div>
+
+      <footer style={styles.footer}>
+        <p>© {new Date().getFullYear()} Hannah Lee</p>
+      </footer>
     </div>
   );
 }
