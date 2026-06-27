@@ -412,10 +412,10 @@ const styles = {
     top: 54,
   },
 
-  bottleCap: {
+  cottonCandy: {
     position: "absolute" as const,
     top: 110,
-    left: -100,
+    left: -110,
     width: 120,
     zIndex: 10,
   },

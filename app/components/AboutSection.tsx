@@ -354,9 +354,9 @@ export default function AboutSection() {
         </motion.div>
 
         <motion.img
-          src="/images/bottle-cap.png"
-          alt="Cotton candy bottle cap"
-          style={styles.bottleCap}
+          src="/images/cotton-candy.png"
+          alt="Cotton candy sticker"
+          style={styles.cottonCandy}
           whileHover={{ rotate: 8, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
