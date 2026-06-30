@@ -395,7 +395,6 @@ const styles = {
     left: 200,
     width: 260,
     height: 220,
-    cursor: "pointer",
   },
 
   orangeClip: {
