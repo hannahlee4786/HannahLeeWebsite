@@ -7,36 +7,39 @@ interface NavbarProps {
   onNavigate: (page: Page) => void;
 }
 
-const navItems: { label: string; page: Page }[] = [
-  { label: "Home", page: "home" },
-  { label: "Experiences", page: "experience" },
-  { label: "Projects", page: "projects" },
-  { label: "Involvements", page: "involvements" },
+const homeItems = [
+  { label: "Experiences", page: "experience" as const },
+  { label: "Projects", page: "projects" as const },
+  { label: "Involvements", page: "involvements" as const },
 ];
 
-export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
+export default function Navbar({
+  currentPage,
+  onNavigate,
+}: NavbarProps) {
   return (
-    <nav className="w-full flex items-center justify-center px-4 py-4">
-      <div className="flex flex-wrap items-center gap-2 rounded-full border border-black/10 bg-white/70 px-3 py-2 shadow-sm backdrop-blur-md">
-        {navItems.map((item) => {
-          const isActive = currentPage === item.page;
+    <nav className="w-full flex justify-center py-4">
+      <div className="flex gap-3 rounded-full border border-black/10 bg-white/70 px-4 py-2 shadow-sm backdrop-blur-md">
 
-          return (
+        {currentPage === "home" ? (
+          homeItems.map((item) => (
             <button
               key={item.page}
               onClick={() => onNavigate(item.page)}
-              aria-current={isActive ? "page" : undefined}
-              className={[
-                "rounded-full px-4 py-2 text-sm font-medium transition-all duration-200",
-                isActive
-                  ? "bg-black text-white shadow-md"
-                  : "text-black/70 hover:bg-black/5 hover:text-black",
-              ].join(" ")}
+              className="rounded-full px-4 py-2 text-sm font-medium text-black/70 transition hover:bg-black/5 hover:text-black"
             >
               {item.label}
             </button>
-          );
-        })}
+          ))
+        ) : (
+          <button
+            onClick={() => onNavigate("home")}
+            className="rounded-full px-4 py-2 text-sm font-medium text-black/70 transition hover:bg-black/5 hover:text-black"
+          >
+            ← Back
+          </button>
+        )}
+
       </div>
     </nav>
   );
