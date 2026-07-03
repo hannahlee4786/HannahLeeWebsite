@@ -193,6 +193,7 @@ const styles = {
     padding: "16px 16px 50px 16px",
     boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
     display: "block",
+    borderRadius: 2,
   },
 
   sonnyAngels: {
@@ -451,7 +452,7 @@ const styles = {
     right: 160,
     width: 280,
     fontFamily: "Special Elite",
-    textAlign: "right" as const,
+    textAlign: "center" as const,
   },
 
   lastParagraph: {
