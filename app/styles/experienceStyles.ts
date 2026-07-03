@@ -92,18 +92,18 @@ const styles = {
 
   aws: {
     position: "absolute" as const,
-    top: 60,
-    left: 600,
-    width: 200,
+    top: 20,
+    left: 630,
+    width: 260,
     zIndex: 10,
     transform: "rotate(-3deg)",
   },
 
   typescript: {
     position: "absolute" as const,
-    top: 220,
-    left: 480,
-    width: 200,
+    top: 190,
+    left: 470,
+    width: 230,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
@@ -136,7 +136,7 @@ const styles = {
   experience2Container: {
     position: "relative" as const,
     width: 600,
-    height: 700,
+    height: 2380,
     // backgroundColor: "white",
     margin: "0 auto",
   },
@@ -297,16 +297,34 @@ const styles = {
     zIndex: 20,
   },
 
-  danceCamApp: {
+  danceCamCard: {
     position: "absolute" as const,
     top: 680,
-    left: -150,
-    width: 420,
-    zIndex: 10,
-    padding: 8,
-    backgroundColor: "#6383d2",
-    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
-    cursor: "pointer"
+    left: -180,
+    display: "flex",
+    flexDirection: "column" as const,
+    alignItems: "center",
+    gap: 12,
+    cursor: "pointer",
+    padding: 10,
+    backgroundColor: "#629de4"
+  },
+
+  danceCamApp: {
+    width: 450,
+    display: "block",
+  },
+
+  danceCamText: {
+    position: "absolute" as const,
+    top: 268,
+    left: 300,
+    fontFamily: "Sophie Comic",
+    fontSize: 27,
+    width: 120,
+    color: "#FFFFFF",
+    lineHeight: 0.8,
+    textAlign: "center" as const
   },
 
   greenYellowPaperContainer: {
@@ -356,15 +374,15 @@ const styles = {
   swift: {
     position: "absolute" as const,
     top: 1080,
-    left: 360,
+    left: 340,
     width: 200,
     zIndex: 10,
   },
 
   swiftui: {
     position: "absolute" as const,
-    top: 1300,
-    left: 450,
+    top: 1280,
+    left: 460,
     width: 170,
     zIndex: 10,
     transform: "rotate(-3deg)",
@@ -372,7 +390,7 @@ const styles = {
 
   btsContainer: {
     position: "absolute" as const,
-    top: 970,
+    top: 960,
     left: 340,
     transformOrigin: "center center",
   },
@@ -387,8 +405,157 @@ const styles = {
     padding: 12,
     textAlign: "center" as const,
     borderRadius: 20
-  } 
+  },
 
+  pinkTicket: {
+    width: 320,
+    position: "absolute" as const,
+    top: -30,
+    left: -110,
+  },
+
+  pinkTicketContainer: {
+    position: "absolute" as const,
+    left: -20,
+    top: 1530,
+    transformOrigin: "center center",
+  },
+
+  h43: {
+    position: "absolute" as const,
+    top: 24,
+    left: -44,
+    margin: 0,
+    fontFamily: "Sophie Comic",
+    fontSize: 34,
+    textAlign: "center" as const,
+    width: 190
+  },
+
+  purplePaperContainer: {
+    position: "absolute" as const,
+    left: 180,
+    top: 1440,
+    transformOrigin: "center center",
+  },
+
+  purplePaper: {
+    position: "absolute" as const,
+    left: 0,
+    top: 40,
+    height: 430,
+  },
+
+  purplePaperText: {
+    position: "absolute" as const,
+    top: 125,
+    left: 88,
+    width: 520,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 1.8,
+    fontSize: "1rem",
+  },
+
+  fifoFridge: {
+    position: "absolute" as const,
+    top: 680,
+    left: -150,
+    width: 300,
+    zIndex: 10,
+    padding: 8,
+    backgroundColor: "#6383d2",
+    filter: "drop-shadow(0 4px 8px rgba(0,0,0,0.45))",
+    cursor: "pointer"
+  },
+
+  polaroid4: {
+    left: -185,
+    top: 1570,
+  },
+
+  h34: {
+    position: "absolute" as const,
+    top: 275,
+    left: 24,
+    fontFamily: "Sophie Comic",
+    fontSize: 24
+  },
+
+  github2: {
+    position: "absolute" as const,
+    top: 1690,
+    left: -200,
+    width: 180,
+    zIndex: 10,
+    borderRadius: 20,
+    cursor: "pointer"
+  },
+
+  bluePaperContainer: {
+    position: "absolute" as const,
+    left: -160,
+    top: 2030,
+    transformOrigin: "center center",
+  },
+
+  bluePaper: {
+    position: "absolute" as const,
+    left: 0,
+    top: 40,
+    height: 270,
+  },
+
+  bluePaperText: {
+    position: "absolute" as const,
+    top: 94,
+    left: 60,
+    width: 640,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 1.85,
+    fontSize: "1rem",
+  },
+
+  polaroid5: {
+    left: 230,
+    top: 1800,
+  },
+
+  h35: {
+    position: "absolute" as const,
+    top: 264,
+    left: 40,
+    fontFamily: "Sophie Comic",
+    fontSize: 36
+  },
+
+  typescript2: {
+    position: "absolute" as const,
+    top: 1890,
+    left: 220,
+    width: 210,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
+  },
+
+  reactNative: {
+    position: "absolute" as const,
+    top: 1880,
+    left: 410,
+    width: 190,
+    zIndex: 10,
+    transform: "rotate(5deg)",
+  },
+
+  firebase: {
+    position: "absolute" as const,
+    top: 1870,
+    left: -230,
+    width: 210,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
+  },
 }
 
 export default styles;
