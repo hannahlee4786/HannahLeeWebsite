@@ -1,4 +1,5 @@
 import styles from "../styles/experienceStyles";
+import styles2 from "../styles/aboutMeStyles";
 import { motion } from "framer-motion";
 
 export default function ExperienceSection() {
@@ -191,14 +192,27 @@ export default function ExperienceSection() {
           onClick={() => window.open("https://github.com/uscmakers/DanceCam", "_blank")}
         />
 
-        <motion.img
-          src="/images/experiences/dance-cam-app.png"
-          alt="Dance Cam app"
-          style={styles.danceCamApp}
+        <motion.div
+          style={styles.danceCamCard}
           whileHover={{ rotate: -4, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
-          onClick={() => window.open("https://docs.google.com/presentation/d/1t-3-cZh6xX9y0qW-H7oV3bZbj8hSNAJys3l-452tSAM/edit?usp=sharing", "_blank")}
-        />
+          onClick={() =>
+            window.open(
+              "https://docs.google.com/presentation/d/1t-3-cZh6xX9y0qW-H7oV3bZbj8hSNAJys3l-452tSAM/edit?usp=sharing",
+              "_blank"
+            )
+          }
+        >
+          <img
+            src="/images/experiences/dance-cam-app.png"
+            alt="Dance Cam app"
+            style={styles.danceCamApp}
+          />
+
+          <p style={styles.danceCamText}>
+            click to view slides!
+          </p>
+        </motion.div>
 
         <motion.div
           style={styles.greenYellowPaperContainer}
@@ -231,11 +245,11 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.btsContainer}
-          whileHover={{ rotate: -3, scale: 1.05, y: -4 }}
+          whileHover={{ rotate: -3, scale: 1.05 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <h1 style={styles.bts}>
-            app icon designed by me! (shout out bts 💜)
+            app icon designed by me! (shout out to bts 💜)
           </h1>
         </motion.div>
 
@@ -254,6 +268,118 @@ export default function ExperienceSection() {
           whileHover={{ rotate: -8, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
+
+        <motion.div
+          style={styles.pinkTicketContainer}
+          whileHover={{ rotate: -5, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/experiences/pink-ticket.png"
+            alt="Pink Ticket"
+            style={styles.pinkTicket}
+          />
+
+          <h4 style={styles.h43}>Sept 2025 ~ May 2026</h4>
+        </motion.div>
+
+        <motion.img
+          src="/images/experiences/github.png"
+          alt="GitHub bottle cap"
+          style={styles.github2}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://github.com/uscmakers/FIFO", "_blank")}
+        />
+
+        <motion.div
+          style={styles.purplePaperContainer}
+          whileHover={{ rotate: -3, scale: 1.02 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/experiences/purple-paper.png"
+            alt="Purple paper with green tape"
+            style={styles.purplePaper}
+          />
+
+          <p style={styles.purplePaperText}>
+            My second project, <strong>FIFO</strong>, focused on helping users better manage groceries and reduce food waste through a smart inventory management system. I developed several core features for the React Native application, including Firebase Authentication for secure user accounts and a barcode scanner that retrieves product information and allows users to save items directly to Firestore. I also implemented deep linking between the inventory application and a Unity-based streak game, creating a seamless experience across both apps. 
+          </p>
+        </motion.div>
+
+        <motion.div
+          style={{ ...styles.polaroid, ...styles.polaroid4 }}
+          whileHover={{ rotate: -5, scale: 1.05, y: -4, cursor: "pointer" }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://canva.link/6uc5mvtc7360lgo", "_blank")}
+        >
+          <img
+            src="/images/experiences/fifo-fridge.jpg"
+            alt="FIFO fridge"
+            style={styles.picture}
+          />
+          <h3 style={styles.h34}>click to view slides!</h3>
+        </motion.div>
+
+        <motion.div
+          style={styles.bluePaperContainer}
+          whileHover={{ rotate: 3, scale: 1.02 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/experiences/blue-paper.png"
+            alt="Blue paper with tape"
+            style={styles.bluePaper}
+          />
+
+          <p style={styles.bluePaperText}>
+            To support automated inventory tracking, I integrated the React Native application with our machine learning pipeline using ngrok, allowing detected additions and removals of grocery items to synchronize with Firestore in real time. Through FIFO, I gained valuable experience building full-stack mobile applications and reinforced my passion for creating technology that solves meaningful, everyday problems.
+          </p>
+        </motion.div>
+
+        <motion.div
+          style={{ ...styles.polaroid, ...styles.polaroid5 }}
+          whileHover={{ rotate: 5, scale: 1.05, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/experiences/fifo-fam.JPG"
+            alt="FIFO fridge"
+            style={styles.picture}
+          />
+          <h3 style={styles.h35}>fifo fam!!</h3>
+        </motion.div>
+
+        <motion.img
+          src="/images/experiences/react-native.png"
+          alt="React Native wax stamp"
+          style={styles.reactNative}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/typescript-wax.png"
+          alt="Typescript wax stamp"
+          style={styles.typescript2}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/firebase.png"
+          alt="Firebase wax stamp"
+          style={styles.firebase}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+      </div>
+
+      <div style={styles2.footerContainer}>
+        <footer style={styles2.footer}>
+          <p>© {new Date().getFullYear()} Hannah Lee</p>
+        </footer>
       </div>
     </div>
   );
