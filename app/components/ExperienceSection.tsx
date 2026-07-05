@@ -38,8 +38,9 @@ export default function ExperienceSection() {
 
         <motion.div
           style={{ ...styles.polaroid, ...styles.polaroid2 }}
-          whileHover={{ rotate: -5, scale: 1.05, y: -4 }}
+          whileHover={{ rotate: -5, scale: 1.05, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.illoominate.net/", "_blank")}
         >
           <img
             src="/images/experiences/illoominate-logo.png"
@@ -81,9 +82,17 @@ export default function ExperienceSection() {
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
 
+        <motion.img
+          src="/images/experiences/pink-bow.png"
+          alt="Pink bow"
+          style={styles.pinkBow}
+          whileHover={{ rotate: -5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
         <motion.div
           style={styles.blueTicketContainer}
-          whileHover={{ rotate: -5, scale: 1.08 }}
+          whileHover={{ rotate: 5, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -102,8 +111,9 @@ export default function ExperienceSection() {
           alt="USC Viterbi Makers logo bead"
           style={styles.makersLogo}
           initial={{ rotate: -14 }}
-          whileHover={{ rotate: 8, scale: 1.08 }}
+          whileHover={{ rotate: 8, scale: 1.08, cursor: "pointer"}}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://github.com/uscmakers/FIFO", "_blank")}
         />
 
         <motion.div
@@ -194,7 +204,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.danceCamCard}
-          whileHover={{ rotate: -4, scale: 1.08 }}
+          whileHover={{ rotate: 4, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
           onClick={() =>
             window.open(
@@ -243,6 +253,22 @@ export default function ExperienceSection() {
           <h3 style={styles.h33}>vehicle!</h3>
         </motion.div>
 
+        <motion.img
+          src="/images/experiences/dinosaur.png"
+          alt="Clay dinosaur"
+          style={styles.dinosaur}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/cookie.png"
+          alt="Clay cookie"
+          style={styles.cookie}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
         <motion.div
           style={styles.btsContainer}
           whileHover={{ rotate: -3, scale: 1.05 }}
@@ -271,7 +297,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.pinkTicketContainer}
-          whileHover={{ rotate: -5, scale: 1.08 }}
+          whileHover={{ rotate: 5, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -371,6 +397,14 @@ export default function ExperienceSection() {
           src="/images/experiences/firebase.png"
           alt="Firebase wax stamp"
           style={styles.firebase}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/capybara.png"
+          alt="Capybara"
+          style={styles.capybara}
           whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
