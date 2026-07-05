@@ -1,4 +1,99 @@
 const styles = {
+
+  mainHeader: {
+    height: 130,
+    width: 1000,
+    marginTop: 40,
+    marginBottom: 50,
+    position: "relative" as const,
+    left: -48,
+    overflow: "visible",
+  },
+
+  star1: {
+    height: 70,
+    position: "absolute" as const,
+    top: 14,
+    left: -10,
+  },
+
+  e1: {
+    height: 70,
+    position: "absolute" as const,
+    top: 44,
+    left: 75,
+  },
+
+  x: {
+    height: 70,
+    position: "absolute" as const,
+    top: 14,
+    left: 160,
+  },
+
+  p: {
+    height: 70,
+    position: "absolute" as const,
+    top: 44,
+    left: 245,
+  },
+
+  e2: {
+    height: 70,
+    position: "absolute" as const,
+    top: 16,
+    left: 335,
+  },
+
+  r: {
+    height: 70,
+    position: "absolute" as const,
+    top: 40,
+    left: 425,
+  },
+
+  i: {
+    height: 70,
+    position: "absolute" as const,
+    top: 18,
+    left: 518,
+  },
+
+  e3: {
+    height: 70,
+    position: "absolute" as const,
+    top: 40,
+    left: 610,
+  },
+
+  n: {
+    height: 70,
+    position: "absolute" as const,
+    top: 19,
+    left: 700,
+  },
+
+  c: {
+    height: 70,
+    position: "absolute" as const,
+    top: 40,
+    left: 795,
+  },
+
+  e4: {
+    height: 70,
+    position: "absolute" as const,
+    top: 20,
+    left: 888,
+  },
+
+  star2: {
+    height: 70,
+    position: "absolute" as const,
+    top: 40,
+    left: 970,
+  },
+
   experienceHeader: {
     marginTop: 50,
     height: 140,

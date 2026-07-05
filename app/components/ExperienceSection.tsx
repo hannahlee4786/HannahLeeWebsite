@@ -11,11 +11,103 @@ export default function ExperienceSection() {
       }}
     >
       <div style={{ textAlign: "center" }}>
-        <img
-          src="/images/experiences/experience-header.png"
-          alt="Experience bead header"
-          style={styles.experienceHeader}
-        />
+        <div style={styles.mainHeader}>
+          <motion.img
+            src="/images/experiences/star.png"
+            alt="Star bead"
+            style={styles.star1}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/e.png"
+            alt="Letter e bead"
+            style={styles.e1}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/x.png"
+            alt="Letter p bead"
+            style={styles.x}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/p.png"
+            alt="Letter p bead"
+            style={styles.p}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/e.png"
+            alt="Letter e bead"
+            style={styles.e2}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/r.png"
+            alt="Letter r bead"
+            style={styles.r}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/i.png"
+            alt="Letter i bead"
+            style={styles.i}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/e.png"
+            alt="Letter e bead"
+            style={styles.e3}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/n.png"
+            alt="Letter n bead"
+            style={styles.n}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/c.png"
+            alt="Letter c bead"
+            style={styles.c}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/e.png"
+            alt="Letter e bead"
+            style={styles.e4}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+
+          <motion.img
+            src="/images/experiences/star.png"
+            alt="Star bead"
+            style={styles.star2}
+            whileHover={{ scale: 1.4, zIndex: 50 }}
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+          />
+        </div>
       </div>
 
       {/* illoominate experience */}
