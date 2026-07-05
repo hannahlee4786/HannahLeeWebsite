@@ -4,7 +4,7 @@ const styles = {
     height: 130,
     width: 1000,
     marginTop: 40,
-    marginBottom: 50,
+    marginBottom: 20,
     position: "relative" as const,
     left: -48,
     overflow: "visible",
