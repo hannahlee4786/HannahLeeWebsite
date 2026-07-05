@@ -155,9 +155,9 @@ export default function AboutSection() {
           </motion.div>
 
           <motion.img
-            src="/images/aboutMe/sushi.png"
-            alt="Bowl of sushi"
-            style={styles.sushi}
+            src="/images/aboutMe/cake.png"
+            alt="Cake slice"
+            style={styles.cake}
             whileHover={{ rotate: 4, scale: 1.08 }}
             transition={{ type: "spring", stiffness: 260, damping: 18 }}
           />

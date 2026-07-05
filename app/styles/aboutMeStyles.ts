@@ -203,7 +203,7 @@ const styles = {
     width: 100
   },
 
-  sushi: {
+  cake: {
     position: "absolute" as const,
     top: 610,
     left: 34,
