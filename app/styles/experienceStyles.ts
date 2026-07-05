@@ -23,7 +23,7 @@ const styles = {
   },
 
   polaroid2: {
-    left: 240,
+    left: 230,
     top: 80,
   },
 
@@ -40,9 +40,27 @@ const styles = {
     fontSize: 36
   },
 
+  dinosaur: {
+    position: "absolute" as const,
+    top: 180,
+    left: 710,
+    width: 180,
+    zIndex: 10,
+    transform: "rotate(5deg)",
+  },
+
+  cookie: {
+    position: "absolute" as const,
+    top: 20,
+    left: 750,
+    width: 140,
+    zIndex: 10,
+    transform: "rotate(5deg)",
+  },
+
   graphPaperContainer: {
     position: "absolute" as const,
-    left: 120,
+    left: 100,
     top: 370,
     transformOrigin: "center center",
   },
@@ -92,8 +110,8 @@ const styles = {
 
   aws: {
     position: "absolute" as const,
-    top: 20,
-    left: 630,
+    top: 60,
+    left: 640,
     width: 260,
     zIndex: 10,
     transform: "rotate(-3deg)",
@@ -101,9 +119,18 @@ const styles = {
 
   typescript: {
     position: "absolute" as const,
-    top: 190,
+    top: 200,
     left: 470,
     width: 230,
+    zIndex: 10,
+    transform: "rotate(5deg)",
+  },
+
+  pinkBow: {
+    position: "absolute" as const,
+    top: 30,
+    left: 480,
+    width: 170,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
@@ -117,7 +144,7 @@ const styles = {
 
   blueTicketContainer: {
     position: "absolute" as const,
-    left: -100,
+    left: -120,
     top: 480,
     transformOrigin: "center center",
   },
@@ -143,7 +170,7 @@ const styles = {
 
   pinkPaperContainer: {
     position: "absolute" as const,
-    left: -10,
+    left: -70,
     top: 0,
     transformOrigin: "center center",
   },
@@ -169,7 +196,7 @@ const styles = {
   makersLogo: {
     position: "absolute" as const,
     top: -70,
-    left: -80,
+    left: -120,
     width: 200,
     zIndex: 10,
     transform: "rotate(-3deg)",
@@ -178,7 +205,7 @@ const styles = {
   makersGroup: {
     position: "absolute" as const,
     top: 20,
-    left: 450,
+    left: 410,
     width: 280,
     transformOrigin: "center center",
   },
@@ -202,7 +229,7 @@ const styles = {
 
   greenPostItContainer: {
     position: "absolute" as const,
-    left: 580,
+    left: 540,
     top: 240,
     transformOrigin: "center center",
   },
@@ -400,11 +427,11 @@ const styles = {
     fontFamily: "Sophie Comic",
     fontSize: 24,
     width: 260,
-    backgroundColor: "#663399",
-    color: "#deccef",
+    backgroundColor: "#eee1a0",
+    color: "#ec9326",
     padding: 12,
     textAlign: "center" as const,
-    borderRadius: 20
+    borderRadius: 20,
   },
 
   pinkTicket: {
@@ -555,6 +582,15 @@ const styles = {
     width: 210,
     zIndex: 10,
     transform: "rotate(-3deg)",
+  },
+
+  capybara: {
+    position: "absolute" as const,
+    top: 2230,
+    left: 540,
+    width: 100,
+    zIndex: 10,
+    transform: "rotate(5deg)",
   },
 }
 
