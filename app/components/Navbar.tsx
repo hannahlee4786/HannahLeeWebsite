@@ -8,9 +8,9 @@ interface NavbarProps {
 }
 
 const homeItems = [
-  { label: "Experiences", page: "experience" as const },
+  { label: "Experience", page: "experience" as const },
   { label: "Projects", page: "projects" as const },
-  { label: "Involvements", page: "involvements" as const },
+  { label: "Involvement", page: "involvements" as const },
 ];
 
 export default function Navbar({
