@@ -84,7 +84,7 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           src="/images/projects/dance-cam.png"
           alt="Dance Cam sign"
           style={styles.danceCamSign}
-          whileHover={{ rotate: 5, scale: 1.02, y: -2 }}
+          whileHover={{ scale: 1.12, y: -2 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
 
@@ -121,6 +121,63 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
+
+        <motion.img
+          src="/images/projects/lebron-alarm.png"
+          alt="LeBron sign"
+          style={styles.lebronSign}
+          whileHover={{ scale: 1.10, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={styles.binderPaperContainer}
+          whileHover={{ rotate: 3, scale: 1.05, y: -8 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/experiences/binder-paper.png"
+            alt="Binder paper"
+            style={styles.binderPaper}
+          />
+
+          <p style={styles.binderPaperText}>
+            A React Native, social alarm app developed as part of a collaborative club project. Schedule alarms for yourself or send alarms to friends. Instead of the traditional snooze button, make three basketball shots to dismiss the alarm. The app also has chat experiences with LeBron James, Bronny James, and Luka Dončić. Our project was awarded <strong>1st Place</strong>!
+          </p>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/lebron-app.png"
+          alt="LeBron banner"
+          style={styles.lebronApp}
+          whileHover={{ rotate: -5, scale: 1.12, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/react-native.png"
+          alt="React Native wax stamp"
+          style={styles.reactNative}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/javascript-wax.png"
+          alt="JavaScript wax stamp"
+          style={styles.javascript}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/firebase.png"
+          alt="Firebase wax stamp"
+          style={styles.firebase}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
       </div>
     </ResponsiveCanvas>
   );

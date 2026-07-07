@@ -70,7 +70,7 @@ const styles = {
   projectsContainer: {
     position: "relative" as const,
     width: 600,
-    height: 700,
+    height: 1900,
     // backgroundColor: "white",
     margin: "0 auto",
   },
@@ -123,7 +123,7 @@ const styles = {
   hippo: {
     position: "absolute" as const,
     top: -70,
-    left: 640,
+    left: 650,
     width: 150,
     zIndex: 10
   },
@@ -132,11 +132,78 @@ const styles = {
     position: "absolute" as const,
     top: 80,
     left: 640,
-    width: 140,
+    width: 170,
     zIndex: 10
   },
 
+  lebronSign: {
+    position: "absolute" as const,
+    top: 240,
+    left: 30,
+    height: 180,
+    zIndex: 10,
+  },
 
+  lebronApp: {
+    position: "absolute" as const,
+    top: 300,
+    left: 480,
+    height: 400,
+    zIndex: 10,
+  },
+
+  binderPaperContainer: {
+    position: "absolute" as const,
+    left: -200,
+    top: 214,
+    transformOrigin: "center center",
+  },
+
+  binderPaper: {
+    position: "absolute" as const,
+    left: 190,
+    top: 190,
+    height: 300,
+    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
+  },
+
+  binderPaperText: {
+    position: "absolute" as const,
+    top: 204,
+    left: 270,
+    width: 340,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 1.7,
+    fontSize: "1rem",
+  },
+
+  reactNative: {
+    position: "absolute" as const,
+    top: 360,
+    left: -110,
+    width: 130,
+    zIndex: 10,
+    transform: "rotate(5deg)",
+  },
+
+  firebase: {
+    position: "absolute" as const,
+    top: 650,
+    left: -70,
+    width: 150,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
+  },
+
+  javascript: {
+    position: "absolute" as const,
+    top: 480,
+    left: -140,
+    width: 180,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
+  },
 }
 
 export default styles;
