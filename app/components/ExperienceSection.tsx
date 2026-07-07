@@ -265,7 +265,7 @@ export default function ExperienceSection() {
             style={styles.orangeTicket}
           />
 
-          <h4 style={styles.h42}>Sept 2024 ~ May 2025</h4>
+          <h4 style={styles.h42}>Sept 2024 ~ April 2025</h4>
         </motion.div>
 
         <motion.div
