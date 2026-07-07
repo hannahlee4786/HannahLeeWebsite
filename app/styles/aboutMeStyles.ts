@@ -292,7 +292,7 @@ const styles = {
   heart: {
     zIndex: 20,
     position: "absolute" as const,
-    left: 200,
+    left: -140,
     top: 620,
     width: 430,
   },

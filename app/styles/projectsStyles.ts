@@ -4,7 +4,7 @@ const styles = {
     height: 130,
     width: 1000,
     marginTop: 40,
-    marginBottom: 50,
+    marginBottom: 80,
     position: "relative" as const,
     left: -48,
     overflow: "visible",
@@ -66,6 +66,14 @@ const styles = {
     top: 19,
     left: 765,
   },
+
+  moodifyContainer: {
+    position: "relative" as const,
+    width: 600,
+    height: 700,
+    backgroundColor: "white",
+    margin: "0 auto",
+  }
 
 }
 
