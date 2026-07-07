@@ -1,14 +1,10 @@
 import styles from "../styles/aboutMeStyles";
 import { motion } from "framer-motion";
+import ResponsiveCanvas from "./ResponsiveCanvas";
 
 export default function AboutSection() {
   return (
-    <div
-      style={{
-        width: 850,
-        margin: "0 auto",
-      }}
-    >
+    <ResponsiveCanvas designWidth={850}>
       <div style={{ textAlign: "center" }}>
         <div style={styles.mainHeader}>
           <motion.img
@@ -480,6 +476,6 @@ export default function AboutSection() {
           <p>© {new Date().getFullYear()} Hannah Lee</p>
         </footer>
       </div>
-    </div>
+    </ResponsiveCanvas>
   );
 }

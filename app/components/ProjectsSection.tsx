@@ -1,14 +1,10 @@
 import styles from "../styles/projectsStyles";
 import { motion } from "framer-motion";
+import ResponsiveCanvas from "./ResponsiveCanvas";
 
 export default function ProjectsSection() {
   return (
-    <div
-      style={{
-        width: 850,
-        margin: "0 auto",
-      }}
-    >
+    <ResponsiveCanvas>
       <div style={{ textAlign: "center" }}>
         <div style={styles.mainHeader}>
           <motion.img
@@ -76,6 +72,11 @@ export default function ProjectsSection() {
           />
         </div>
       </div>
-    </div>
+
+      {/* Project #1: Moodify */}
+      <div style={styles.moodifyContainer}>
+        
+      </div>
+    </ResponsiveCanvas>
   );
 }
