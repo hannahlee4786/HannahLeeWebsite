@@ -1,8 +1,13 @@
 import styles from "../styles/projectsStyles";
 import { motion } from "framer-motion";
 import ResponsiveCanvas from "./ResponsiveCanvas";
+import { Page } from "./Navbar";
 
-export default function ProjectsSection() {
+interface ProjectsSectionProps {
+  onNavigate: (page: Page) => void;
+}
+
+export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
   return (
     <ResponsiveCanvas>
       <div style={{ textAlign: "center" }}>
@@ -14,7 +19,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/r.png"
             alt="Letter r bead"
@@ -22,7 +26,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/o.png"
             alt="Letter o bead"
@@ -30,7 +33,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/j.png"
             alt="Letter j bead"
@@ -38,7 +40,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/e.png"
             alt="Letter e bead"
@@ -46,7 +47,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/c.png"
             alt="Letter c bead"
@@ -54,7 +54,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/t.png"
             alt="Letter t bead"
@@ -62,7 +61,6 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.4, zIndex: 50 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
           />
-
           <motion.img
             src="/images/projects/s.png"
             alt="Letter s bead"
@@ -73,9 +71,56 @@ export default function ProjectsSection() {
         </div>
       </div>
 
-      {/* Project #1: Moodify */}
-      <div style={styles.moodifyContainer}>
-        
+      <div style={styles.projectsContainer}>
+        <motion.img
+          src="/images/projects/dance-cam-icon.jpg"
+          alt="Dance Cam app icon"
+          style={styles.danceCam}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/dance-cam.png"
+          alt="Dance Cam sign"
+          style={styles.danceCamSign}
+          whileHover={{ rotate: 5, scale: 1.02, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={{ ...styles.captionContainer, cursor: "pointer" }}
+          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => onNavigate("experience")}
+        >
+          <img
+            src="/images/projects/caption-paper.png"
+            alt="Caption paper"
+            style={styles.caption}
+          />
+
+          <p style={styles.captionText}>
+            Check out the experience page to view the project!
+          </p>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/hippo.png"
+          alt="Clay animal cookie"
+          style={styles.hippo}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/eight-ball.png"
+          alt="Clay 8 ball"
+          style={styles.eightBall}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
       </div>
     </ResponsiveCanvas>
   );

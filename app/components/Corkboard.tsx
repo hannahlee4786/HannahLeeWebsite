@@ -29,7 +29,7 @@ export default function Portfolio() {
           >
             {page === "home" && <AboutSection />}
             {page === "experience" && <ExperienceSection />}
-            {page === "projects" && <ProjectsSection />}
+            {page === "projects" && <ProjectsSection onNavigate={setPage} />}
             {page === "involvements" && <InvolvementsSection />}
           </motion.div>
         </AnimatePresence>
