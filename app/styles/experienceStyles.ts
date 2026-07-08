@@ -681,12 +681,26 @@ const styles = {
 
   capybara: {
     position: "absolute" as const,
-    top: 2230,
-    left: 540,
+    top: 2270,
+    left: 520,
     width: 100,
     zIndex: 10,
-    transform: "rotate(5deg)",
   },
+
+  footerContainer: {
+    display: "flex",
+    justifyContent: "center",
+    // backgroundColor: "white",
+    marginTop: 100,
+  },
+
+  footer: {
+    fontFamily: "Special Elite",
+    fontSize: 24,
+    color: "#1e0a44",
+    fontWeight: "bold",
+  },
+
 }
 
 export default styles;

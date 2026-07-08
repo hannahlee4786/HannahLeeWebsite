@@ -231,7 +231,6 @@ const styles = {
   introContainer: {
     position: "relative" as const,
     display: "inline-block",
-    marginLeft: 30,
     marginBottom: 130
   },
 
@@ -293,23 +292,21 @@ const styles = {
     zIndex: 20,
     position: "absolute" as const,
     left: -140,
-    top: 620,
+    top: 560,
     width: 430,
   },
 
-  rubiksCube: {
+  calicoCritter: {
     position: "absolute" as const,
-    bottom: -280,
+    bottom: -360,
     right: -100,
     width: 230,
-    // transform: "rotate(18deg)",
     zIndex: 20
   },
 
   continueContainer: {
     position: "relative" as const,
     height: 450,
-    // backgroundColor: "white"
   },
 
   continuePaper: {
@@ -339,7 +336,6 @@ const styles = {
   moreContainer: {
     position: "relative" as const,
     height: 700,
-    // backgroundColor: "white"
   },
 
   moreGroup: {
@@ -541,10 +537,10 @@ const styles = {
   footerContainer: {
     display: "flex",
     justifyContent: "center",
+    marginTop: 100,
   },
 
   footer: {
-    marginTop: 10,
     fontFamily: "Special Elite",
     fontSize: 24,
     color: "#1e0a44",

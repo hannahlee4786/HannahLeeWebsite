@@ -114,7 +114,7 @@ export default function AboutSection() {
         <div style={styles.introContainer}>
           <motion.div
             style={styles.introGroup}
-            whileHover={{ rotate: 3, scale: 1.03, y: -2 }}
+            whileHover={{ scale: 1.03, y: -2 }}
             transition={{ type: "spring", stiffness: 260, damping: 18 }}
           >
             <img
@@ -192,11 +192,11 @@ export default function AboutSection() {
           />
 
           <motion.img
-            src="/images/aboutMe/rubiks-cube.png"
-            alt="Rubik's Cube stamp"
-            style={styles.rubiksCube}
+            src="/images/aboutMe/calico-critter.png"
+            alt="Calico Critter key chain"
+            style={styles.calicoCritter}
             // initial={{rotate: 18}}
-            whileHover={{ rotate: -10, scale: 1.08 }}
+            whileHover={{ rotate: -5, scale: 1.08 }}
             transition={{ type: "spring", stiffness: 260, damping: 18 }}
           />
         </div>
@@ -206,7 +206,7 @@ export default function AboutSection() {
       <div style={styles.continueContainer}>
         <motion.div
           style={styles.moreGroup}
-          whileHover={{ rotate: -4, scale: 1.03, y: -2 }}
+          whileHover={{ scale: 1.03, y: -2 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -268,7 +268,7 @@ export default function AboutSection() {
 
         <motion.div
           style={styles.moreGroup}
-          whileHover={{ rotate: -4, scale: 1.03, y: -2 }}
+          whileHover={{ scale: 1.03, y: -2 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -361,7 +361,7 @@ export default function AboutSection() {
       <div style={styles.lastContainer}>
         <motion.div
           style={styles.lastGroup}
-          whileHover={{ rotate: -4, scale: 1.03, y: -2 }}
+          whileHover={{ scale: 1.03, y: -2 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img

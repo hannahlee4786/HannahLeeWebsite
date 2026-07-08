@@ -1,5 +1,4 @@
 import styles from "../styles/experienceStyles";
-import styles2 from "../styles/aboutMeStyles";
 import { motion } from "framer-motion";
 import ResponsiveCanvas from "./ResponsiveCanvas";
 
@@ -110,7 +109,7 @@ export default function ExperienceSection() {
       <div style={styles.experience1Container}>
         <motion.div
           style={styles.yellowPostItContainer}
-          whileHover={{ rotate: 5, scale: 1.08 }}
+          whileHover={{ scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -140,7 +139,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.graphPaperContainer}
-          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -206,7 +205,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.pinkPaperContainer}
-          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -236,7 +235,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.greenPostItContainer}
-          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileHover={{ scale: 1.06 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -266,7 +265,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.binderPaperContainer}
-          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -314,7 +313,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.greenYellowPaperContainer}
-          whileHover={{ rotate: 3, scale: 1.02 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -408,7 +407,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.purplePaperContainer}
-          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileHover={{ scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -438,7 +437,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.bluePaperContainer}
-          whileHover={{ rotate: 3, scale: 1.02 }}
+          whileHover={{ scale: 1.02 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -498,8 +497,8 @@ export default function ExperienceSection() {
         />
       </div>
 
-      <div style={styles2.footerContainer}>
-        <footer style={styles2.footer}>
+      <div style={styles.footerContainer}>
+        <footer style={styles.footer}>
           <p>© {new Date().getFullYear()} Hannah Lee</p>
         </footer>
       </div>
