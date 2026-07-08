@@ -90,7 +90,7 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
 
         <motion.div
           style={{ ...styles.captionContainer, cursor: "pointer" }}
-          whileHover={{ rotate: -3, scale: 1.02 }}
+          whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.98 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
           onClick={() => onNavigate("experience")}
@@ -132,7 +132,7 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
 
         <motion.div
           style={styles.binderPaperContainer}
-          whileHover={{ rotate: 3, scale: 1.05, y: -8 }}
+          whileHover={{ scale: 1.05, }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -178,6 +178,102 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
 
+        <motion.img
+          src="/images/experiences/github.png"
+          alt="GitHub bottle cap"
+          style={styles.github1}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://github.com/hannahlee4786/LebronAlarmApp", "_blank")}
+        />
+
+        <motion.img
+          src="/images/projects/moodify-sign.png"
+          alt="Moodify sign"
+          style={styles.moodifySign}
+          whileHover={{ scale: 1.12, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/moodify-search.png"
+          alt="Moodify song search screen"
+          style={styles.moodifySearch}
+          whileHover={{ rotate: -3, scale: 1.12, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={styles.moodifyContainer}
+          whileHover={{ scale: 1.03, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/aboutMe/beige-paper.png"
+            alt="Background paper for introduction"
+            style={styles.moodifyPaper}
+          />
+
+          <div style={styles.moodifyText}>
+            <p style={styles.moodifyParagraph}>
+              A full-stack iOS application built with SwiftUI, Firebase, and Spotify's Web API that allows users to post a daily song alongside a caption and mood. The app features Spotify authentication, real-time cloud data storage, and music search integration, providing a seamless social experience centered around music.
+            </p>
+          </div>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/moodify-app-icon.jpg"
+          alt="Moodify app icon"
+          style={styles.moodifyIcon}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={{ ...styles.polaroid, ...styles.polaroid2 }}
+          whileHover={{ rotate: 5, scale: 1.05, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/projects/moodify-login.jpg"
+            alt="Moodify login polaroid"
+            style={styles.picture}
+          />
+          <h3 style={styles.h31}>login page!</h3>
+        </motion.div>
+
+        <motion.img
+          src="/images/experiences/swift-wax.png"
+          alt="Swift wax stamp"
+          style={styles.swift}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/swiftui-wax.png"
+          alt="SwiftUI wax stamp"
+          style={styles.swiftui}
+          whileHover={{ rotate: -8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/firebase.png"
+          alt="Firebase wax stamp"
+          style={styles.firebase2}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/github.png"
+          alt="GitHub bottle cap"
+          style={styles.github2}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://github.com/hannahlee4786/Moodify", "_blank")}
+        />
       </div>
     </ResponsiveCanvas>
   );
