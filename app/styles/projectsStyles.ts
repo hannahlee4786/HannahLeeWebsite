@@ -70,7 +70,7 @@ const styles = {
   projectsContainer: {
     position: "relative" as const,
     width: 600,
-    height: 1900,
+    height: 3000,
     // backgroundColor: "white",
     margin: "0 auto",
   },
@@ -81,7 +81,7 @@ const styles = {
     left: -90,
     width: 230,
     zIndex: 10,
-    borderRadius: 16,
+    borderRadius: 30,
     padding: 4,
     backgroundColor: "black",
     boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
@@ -267,7 +267,7 @@ const styles = {
     left: 530,
     width: 130,
     zIndex: 10,
-    borderRadius: 16,
+    borderRadius: 30,
     padding: 4,
     backgroundColor: "black",
     boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
@@ -332,6 +332,122 @@ const styles = {
     zIndex: 10,
     borderRadius: 20,
     cursor: "pointer"
+  },
+
+  mindlogSign: {
+    position: "absolute" as const,
+    top: 1390,
+    left: 50,
+    height: 150,
+    zIndex: 10,
+  },
+
+  tapePaperContainer: {
+    position: "absolute" as const,
+    left: -270,
+    top: 1350,
+    transformOrigin: "center center",
+  },
+
+  tapePaper: {
+    position: "absolute" as const,
+    left: 190,
+    top: 190,
+    height: 500,
+  },
+
+  tapePaperText: {
+    position: "absolute" as const,
+    top: 270,
+    left: 250,
+    width: 390,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 1.7,
+    fontSize: "1rem",
+  },
+
+  mindlogIcon: {
+    position: "absolute" as const,
+    top: 1400,
+    left: -130,
+    width: 130,
+    zIndex: 10,
+    borderRadius: 30,
+    padding: 4,
+    backgroundColor: "#000000",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
+  },
+
+  mindlogJournal: {
+    position: "absolute" as const,
+    top: 1730,
+    left: 450,
+    width: 400,
+    zIndex: 10,
+  },
+
+  picture2: {
+    width: "220px",
+  },
+
+  h32: {
+    position: "absolute" as const,
+    top: 204,
+    left: 44,
+    fontFamily: "Sophie Comic",
+    fontSize: 30
+  },
+
+  polaroid3: {
+    left: 300,
+    top: 1400
+  },
+
+  devpost: {
+    position: "absolute" as const,
+    top: 1550,
+    left: 390,
+    width: 150,
+    zIndex: 10,
+    borderRadius: 20,
+    cursor: "pointer"
+  },
+
+  nextjs: {
+    position: "absolute" as const,
+    top: 1780,
+    left: -145,
+    width: 130,
+    zIndex: 10,
+    transform: "rotate(5deg)",
+  },
+
+  mongoDB: {
+    position: "absolute" as const,
+    top: 1620,
+    left: -170,
+    width: 150,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
+  },
+
+  python: {
+    position: "absolute" as const,
+    top: 1950,
+    left: -130,
+    width: 160,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
+  },
+
+  swift2: {
+    position: "absolute" as const,
+    top: 1980,
+    left: 320,
+    width: 120,
+    zIndex: 10,
+    transform: "rotate(-3deg)",
   },
 }
 
