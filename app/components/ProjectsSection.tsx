@@ -274,6 +274,101 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
           onClick={() => window.open("https://github.com/hannahlee4786/Moodify", "_blank")}
         />
+
+        <motion.img
+          src="/images/projects/mindlog-sign.png"
+          alt="MindLog sign"
+          style={styles.mindlogSign}
+          whileHover={{ scale: 1.12, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/mindlog-app-icon.png"
+          alt="MindLog app icon"
+          style={styles.mindlogIcon}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={styles.tapePaperContainer}
+          whileHover={{ scale: 1.02, }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/projects/paper-tape.png"
+            alt="Paper with tape strip"
+            style={styles.tapePaper}
+          />
+
+          <p style={styles.tapePaperText}>
+            An AI-powered wellness journal developed for <strong>AthenaHacks</strong> that combines contactless biometric stress sensing with personalized daily reflections. Using Gemini, MongoDB, Presage, Elevenlabs, and Next.js, the app transforms voice and/or text journal entries into AI-generated summaries, affirmations, gratitude lists, and music recommendations while tracking stress trends over time. Our team was awarded [MLH] Best Use of MongoDB Atlas for creating an end-to-end platform that encourages mindful reflection in a more supportive and personalized way.
+          </p>
+        </motion.div>
+
+        <motion.div
+          style={{ ...styles.polaroid, ...styles.polaroid3 }}
+          whileHover={{ rotate: 5, scale: 1.05, y: -4, cursor: "pointer" }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://glyph-siesta-70918141.figma.site/", "_blank")}
+        >
+          <img
+            src="/images/projects/mindlog-snapshot.png"
+            alt="MindLog snapshot polaroid"
+            style={styles.picture2}
+          />
+          <h3 style={styles.h32}>click to view ui</h3>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/mindlog-journal.png"
+          alt="MindLog journal entry"
+          style={styles.mindlogJournal}
+          whileHover={{ rotate: -2, scale: 1.05, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/devpost.png"
+          alt="Devpost bottle cap"
+          style={styles.devpost}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://devpost.com/software/mindlog-f5nx08?_gl=1*1frae0i*_gcl_au*MjEyOTcyMDAyMi4xNzgyMTYyNjcz*_ga*MTEyOTMxNDY1Mi4xNzgyMTYyNjcz*_ga_0YHJK3Y10M*czE3ODM2MjgzMzYkbzIkZzEkdDE3ODM2Mjg1ODMkajM1JGwwJGgw", "_blank")}
+        />
+
+        <motion.img
+          src="/images/projects/mongodb.png"
+          alt="MongoDB wax stamp"
+          style={styles.mongoDB}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/nextjs.png"
+          alt="Next.js wax stamp"
+          style={styles.nextjs}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/python.png"
+          alt="Python wax stamp"
+          style={styles.python}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/swift-wax.png"
+          alt="Swift wax stamp"
+          style={styles.swift2}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
       </div>
     </ResponsiveCanvas>
   );
