@@ -3,7 +3,7 @@
 import { useLayoutEffect, useRef, useState, ReactNode } from "react";
 
 const MIN_SCALE = 0.6;
-const EDGE_PADDING = 40;
+const EDGE_PADDING = 10;
 
 interface Bounds {
   left: number;

@@ -231,7 +231,7 @@ const styles = {
   introContainer: {
     position: "relative" as const,
     display: "inline-block",
-    marginBottom: 130
+    marginBottom: 100
   },
 
   introGroup: {

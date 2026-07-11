@@ -262,7 +262,7 @@ export default function AboutSection() {
           src="/images/aboutMe/music-receipt.png"
           alt="Receipt with favorites songs"
           style={styles.receipt}
-          whileHover={{ rotate: 6, scale: 1.08 }}
+          whileHover={{ rotate: 3, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
 
