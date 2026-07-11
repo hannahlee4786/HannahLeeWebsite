@@ -433,7 +433,7 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
 
         <motion.div
           style={styles.pinkPaperContainer}
-          whileHover={{ scale: 1.10, }}
+          whileHover={{ scale: 1.06, }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
@@ -460,6 +460,56 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           alt="JavaScript wax stamp"
           style={styles.javascript2}
           whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/fifo-sign.png"
+          alt="FIFO sign"
+          style={styles.fifoSign}
+          whileHover={{ scale: 1.10, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/fifo-app-icon.png"
+          alt="FIFO app icon"
+          style={styles.fifo}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={{ ...styles.captionContainer2, cursor: "pointer" }}
+          whileHover={{ scale: 1.06 }}
+          whileTap={{ scale: 0.98 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => onNavigate("experience")}
+        >
+          <img
+            src="/images/projects/caption-paper.png"
+            alt="Caption paper 2"
+            style={styles.caption2}
+          />
+
+          <p style={styles.captionText2}>
+            Check out the experience page to view the project!
+          </p>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/lenny.png"
+          alt="Dog stuffed animal"
+          style={styles.dog}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/calico.png"
+          alt="Calico Critter"
+          style={styles.calico}
+          whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
       </div>

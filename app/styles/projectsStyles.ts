@@ -70,7 +70,7 @@ const styles = {
   projectsContainer: {
     position: "relative" as const,
     width: 600,
-    height: 3000,
+    height: 3800,
     // backgroundColor: "white",
     margin: "0 auto",
   },
@@ -557,6 +557,68 @@ const styles = {
     width: 200,
     zIndex: 10,
   },
+
+  fifoSign: {
+    position: "absolute" as const,
+    top: 2960,
+    left: 180,
+    height: 150,
+    zIndex: 10,
+  },
+
+  fifo: {
+    position: "absolute" as const,
+    top: 3000,
+    left: -100,
+    width: 230,
+    zIndex: 10,
+    borderRadius: 30,
+    padding: 4,
+    backgroundColor: "black",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
+  },
+
+  captionContainer2: {
+    position: "absolute" as const,
+    top: 3060,
+    left: 200,
+    transformOrigin: "center center",
+  },
+
+  caption2: {
+    position: "absolute" as const,
+    left: 0,
+    top: 40,
+    height: 120,
+  },
+
+  captionText2: {
+    position: "absolute" as const,
+    top: 56,
+    left: 60,
+    width: 250,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 1.8,
+    fontSize: "1rem",
+  },
+
+  dog: {
+    position: "absolute" as const,
+    top: 3050,
+    left: 650,
+    width: 180,
+    zIndex: 10
+  },
+
+  calico: {
+    position: "absolute" as const,
+    top: 2860,
+    left: 710,
+    width: 120,
+    zIndex: 10
+  },
+
 }
 
 export default styles;
