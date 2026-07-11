@@ -184,7 +184,6 @@ const styles = {
     left: -110,
     width: 130,
     zIndex: 10,
-    transform: "rotate(5deg)",
   },
 
   reactNative: {
@@ -448,6 +447,115 @@ const styles = {
     width: 120,
     zIndex: 10,
     transform: "rotate(-3deg)",
+  },
+
+  mealshareSign: {
+    position: "absolute" as const,
+    top: 2130,
+    left: 100,
+    height: 150,
+    zIndex: 10,
+  },
+
+  github3: {
+    position: "absolute" as const,
+    top: 2120,
+    left: -60,
+    width: 150,
+    zIndex: 10,
+    borderRadius: 20,
+    cursor: "pointer"
+  },
+
+  picture3: {
+    width: "220px",
+  },
+
+  h33: {
+    position: "absolute" as const,
+    top: 240,
+    left: 58,
+    fontFamily: "Sophie Comic",
+    fontSize: 36
+  },
+
+  polaroid4: {
+    left: 590,
+    top: 1860
+  },
+
+  mealshareMeals: {
+    position: "absolute" as const,
+    top: 2290,
+    left: -100,
+    width: 400,
+    zIndex: 10,
+  },
+
+  binderPaperContainer2: {
+    position: "absolute" as const,
+    left: 140,
+    top: 2090,
+    transformOrigin: "center center",
+  },
+
+  binderPaper2: {
+    position: "absolute" as const,
+    left: 190,
+    top: 190,
+    height: 300,
+  },
+
+  binderPaperText2: {
+    position: "absolute" as const,
+    top: 240,
+    left: 250,
+    width: 340,
+    fontFamily: "Special Elite",
+    fontSize: "1rem",
+    lineHeight: 2.4,
+    textAlign: "left" as const,
+  },
+
+  pinkPaperContainer: {
+    position: "absolute" as const,
+    left: 120,
+    top: 2530,
+    transformOrigin: "center center",
+  },
+
+  pinkPaper: {
+    position: "absolute" as const,
+    left: -160,
+    top: 40,
+    width: 530,
+  },
+
+  pinkPaperText: {
+    position: "absolute" as const,
+    top: 80,
+    left: -104,
+    width: 430,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 2,
+    fontSize: "1rem",
+  },
+
+  java: {
+    position: "absolute" as const,
+    top: 2530,
+    left: 560,
+    width: 200,
+    zIndex: 10,
+  },
+
+  javascript2: {
+    position: "absolute" as const,
+    top: 2720,
+    left: 520,
+    width: 200,
+    zIndex: 10,
   },
 }
 
