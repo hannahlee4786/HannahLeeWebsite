@@ -369,6 +369,99 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
+
+        <motion.img
+          src="/images/projects/mealshare-sign.png"
+          alt="MealShare sign"
+          style={styles.mealshareSign}
+          whileHover={{ scale: 1.12, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/github.png"
+          alt="GitHub bottle cap"
+          style={styles.github3}
+          whileHover={{ rotate: -8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://github.com/hannahlee4786/MealShare", "_blank")}
+        />
+
+        <motion.div
+          style={{ ...styles.polaroid, ...styles.polaroid4 }}
+          whileHover={{ rotate: 5, scale: 1.05, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/projects/mealshare-login.png"
+            alt="MealShare login polaroid"
+            style={styles.picture3}
+          />
+          <h3 style={styles.h33}>login page</h3>
+        </motion.div>
+
+         <motion.img
+          src="/images/projects/mealshare-mymeals.png"
+          alt="MealShare My Meals Page"
+          style={styles.mealshareMeals}
+          whileHover={{ rotate: -2, scale: 1.05, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={styles.binderPaperContainer2}
+          whileHover={{ scale: 1.03 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/aboutMe/binder-paper.png"
+            alt="Binder paper for tests used"
+            style={styles.binderPaper2}
+          />
+
+          
+          <div style={styles.binderPaperText2}>
+            <strong>Tests:</strong>
+            <ul>
+              <li>JUnit</li>
+              <li>Jest</li>
+              <li>Selenium</li>
+              <li>Cucumber</li>
+            </ul>
+          </div>
+        </motion.div>
+
+        <motion.div
+          style={styles.pinkPaperContainer}
+          whileHover={{ scale: 1.10, }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/experiences/pink-paper.png"
+            alt="Pink paper"
+            style={styles.pinkPaper}
+          />
+
+          <p style={styles.pinkPaperText}>
+            A full-stack web application that makes planning meals with friends easier by allowing users to search for recipes, save favorites, and create events with invitations. As part of a Software Engineering group project, we implemented features such as secure authentication, recipe search, shopping list generation, allergen-aware event planning, and extensive unit and acceptance testing.
+          </p>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/java-wax.png"
+          alt="Java wax stamp"
+          style={styles.java}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/javascript-wax.png"
+          alt="JavaScript wax stamp"
+          style={styles.javascript2}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
       </div>
     </ResponsiveCanvas>
   );
