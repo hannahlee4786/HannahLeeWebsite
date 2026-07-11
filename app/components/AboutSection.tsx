@@ -425,10 +425,10 @@ export default function AboutSection() {
         />
 
         <motion.img
-          src="/images/aboutMe/resume.png"
-          alt="I love resume stamp"
+          src="/images/aboutMe/sf.png"
+          alt="I love SF stamp"
           style={styles.resume}
-          whileHover={{ rotate: 8, scale: 1.08, cursor: "pointer" }}
+          whileHover={{ rotate: 8, scale: 1.08 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
 
