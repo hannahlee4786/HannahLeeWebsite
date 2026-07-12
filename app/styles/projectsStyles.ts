@@ -3,7 +3,7 @@ const styles = {
   mainHeader: {
     height: 130,
     width: 1000,
-    marginTop: 40,
+    marginTop: 10,
     marginBottom: 120,
     position: "relative" as const,
     left: -48,
