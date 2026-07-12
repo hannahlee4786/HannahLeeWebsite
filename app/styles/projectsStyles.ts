@@ -8,7 +8,6 @@ const styles = {
     position: "relative" as const,
     left: -48,
     overflow: "visible",
-    // backgroundColor: "white"
   },
 
   p: {
@@ -70,8 +69,7 @@ const styles = {
   projectsContainer: {
     position: "relative" as const,
     width: 600,
-    height: 3800,
-    // backgroundColor: "white",
+    height: 4170,
     margin: "0 auto",
   },
 
@@ -517,21 +515,21 @@ const styles = {
     textAlign: "left" as const,
   },
 
-  pinkPaperContainer: {
+  bluePaperContainer: {
     position: "absolute" as const,
     left: 120,
-    top: 2530,
+    top: 2540,
     transformOrigin: "center center",
   },
 
-  pinkPaper: {
+  bluePaper: {
     position: "absolute" as const,
     left: -160,
     top: 40,
     width: 530,
   },
 
-  pinkPaperText: {
+  bluePaperText: {
     position: "absolute" as const,
     top: 80,
     left: -104,
@@ -617,6 +615,156 @@ const styles = {
     left: 710,
     width: 120,
     zIndex: 10
+  },
+
+  websiteSign: {
+    position: "absolute" as const,
+    top: 3260,
+    left: 60,
+    height: 150,
+    zIndex: 10,
+  },
+
+  github4: {
+    position: "absolute" as const,
+    top: 3260,
+    left: -95,
+    width: 150,
+    zIndex: 10,
+    borderRadius: 20,
+    cursor: "pointer"
+  },
+
+  pinterest: {
+    position: "absolute" as const,
+    width: 400,
+    zIndex: 10,
+    borderRadius: 30,
+    backgroundColor: "#a9cff4",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
+  },
+
+  h34: {
+    position: "absolute" as const,
+    top: 256,
+    left: 100,
+    fontFamily: "Sophie Comic",
+    fontSize: 25,
+    zIndex: 20,
+    width: 400
+  },
+
+  pinterestContainer: {
+    position: "absolute" as const,
+    top: 3420,
+    left: -30,
+    transformOrigin: "center center",
+  },
+
+  whitePostItContainer: {
+    position: "absolute" as const,
+    left: 550,
+    top: 3350,
+    transformOrigin: "center center",
+  },
+
+  whitePostIt: {
+    position: "absolute" as const,
+    left: -160,
+    top: 40,
+    width: 410,
+  },
+
+  whitePostItText: {
+    position: "absolute" as const,
+    top: 80,
+    left: -104,
+    width: 300,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 2,
+    fontSize: "0.92rem",
+  },
+
+  nextjs2: {
+    position: "absolute" as const,
+    top: 3760,
+    left: -10,
+    width: 150,
+    zIndex: 10,
+  },
+
+  typescript: {
+    position: "absolute" as const,
+    top: 3740,
+    left: 140,
+    width: 160,
+    zIndex: 10,
+  },
+
+  html: {
+    position: "absolute" as const,
+    top: 3770,
+    left: 290,
+    width: 160,
+    zIndex: 10,
+  },
+
+  css: {
+    position: "absolute" as const,
+    top: 3770,
+    left: 450,
+    width: 150,
+    zIndex: 10,
+  },
+
+  yellowFlower: {
+    position: "absolute" as const,
+    top: 3220,
+    left: 530,
+    width: 180,
+    zIndex: 10,
+  },
+
+  toy: {
+    position: "absolute" as const,
+    top: 3840,
+    left: 600,
+    width: 180,
+    zIndex: 10,
+  },
+
+  limePaperContainer: {
+    position: "absolute" as const,
+    left: 360,
+    top: 3900,
+    transformOrigin: "center center",
+  },
+
+  limePaper: {
+    position: "absolute" as const,
+    left: -160,
+    top: 40,
+    width: 410,
+  },
+
+  limePaperText: {
+    position: "absolute" as const,
+    top: 80,
+    left: -60,
+    width: 200,
+    fontFamily: "Special Elite",
+    textAlign: "center" as const,
+    lineHeight: 2,
+    fontSize: "1.5rem",
+  },
+
+  hamster: {
+    position: "absolute" as const,
+    top: 3940,
+    left: -5,
+    width: 180,
+    zIndex: 10,
   },
 
 }

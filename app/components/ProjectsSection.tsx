@@ -2,6 +2,7 @@ import styles from "../styles/projectsStyles";
 import { motion } from "framer-motion";
 import ResponsiveCanvas from "./ResponsiveCanvas";
 import { Page } from "./Navbar";
+import styles2 from "../styles/aboutMeStyles";
 
 interface ProjectsSectionProps {
   onNavigate: (page: Page) => void;
@@ -400,7 +401,7 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           <h3 style={styles.h33}>login page</h3>
         </motion.div>
 
-         <motion.img
+        <motion.img
           src="/images/projects/mealshare-mymeals.png"
           alt="MealShare My Meals Page"
           style={styles.mealshareMeals}
@@ -432,17 +433,17 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
         </motion.div>
 
         <motion.div
-          style={styles.pinkPaperContainer}
+          style={styles.bluePaperContainer}
           whileHover={{ scale: 1.06, }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img
-            src="/images/experiences/pink-paper.png"
-            alt="Pink paper"
-            style={styles.pinkPaper}
+            src="/images/projects/blue-paper.png"
+            alt="Blue paper"
+            style={styles.bluePaper}
           />
 
-          <p style={styles.pinkPaperText}>
+          <p style={styles.bluePaperText}>
             A full-stack web application that makes planning meals with friends easier by allowing users to search for recipes, save favorites, and create events with invitations. As part of a Software Engineering group project, we implemented features such as secure authentication, recipe search, shopping list generation, allergen-aware event planning, and extensive unit and acceptance testing.
           </p>
         </motion.div>
@@ -512,6 +513,133 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           whileHover={{ rotate: 5, scale: 1.12, y: -4 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         />
+
+        <motion.img
+          src="/images/projects/this-website-sign.png"
+          alt="This Website sign"
+          style={styles.websiteSign}
+          whileHover={{ scale: 1.10, y: -2 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/github.png"
+          alt="GitHub bottle cap"
+          style={styles.github4}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://github.com/hannahlee4786/HannahLee", "_blank")}
+        />
+
+        <motion.div
+          style={{ ...styles.pinterestContainer, cursor: "pointer" }}
+          whileTap={{ scale: 0.98 }}
+          whileHover={{ scale: 1.05, y: -4, cursor: "pointer" }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.pinterest.com/pin/1097541371703194468/", "_blank")}
+        >
+          <img
+            src="/images/projects/pinterest.png"
+            alt="Pinterest inspo page"
+            style={styles.pinterest}
+          />
+
+          <h3 style={styles.h34}>@wloeun on Pinterest</h3>
+        </motion.div>
+
+        <motion.div
+          style={styles.whitePostItContainer}
+          whileHover={{ scale: 1.06, }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/projects/white-post-it.png"
+            alt="White post it"
+            style={styles.whitePostIt}
+          />
+
+          <p style={styles.whitePostItText}>
+            {"Inspired by the cute corkboard aesthetic on Pinterest (like the one on the left), I wanted to create a portfolio that feels warm and personal while showcasing the projects and experiences I've worked on over the past few years. I hope this gives everyone a glimpse into not only what I've built, but also who I am as both an engineer and a person :)"}
+          </p>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/nextjs.png"
+          alt="Next.js wax stamp"
+          style={styles.nextjs2}
+          whileHover={{ rotate: -8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/experiences/typescript-wax.png"
+          alt="TypeScript wax stamp"
+          style={styles.typescript}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/html.png"
+          alt="HTML wax stamp"
+          style={styles.html}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/css.png"
+          alt="CSS wax stamp"
+          style={styles.css}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/yellow-flower.png"
+          alt="Yellow flower"
+          style={styles.yellowFlower}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.img
+          src="/images/projects/toy.png"
+          alt="Stuffed animal"
+          style={styles.toy}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+
+        <motion.div
+          style={styles.limePaperContainer}
+          whileHover={{ scale: 1.06, }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <img
+            src="/images/projects/last-paper.png"
+            alt="Lime paper"
+            style={styles.limePaper}
+          />
+
+          <p style={styles.limePaperText}>
+            More projects coming soon !!
+          </p>
+        </motion.div>
+
+        <motion.img
+          src="/images/projects/hamster.png"
+          alt="Hamster painting"
+          style={styles.hamster}
+          whileHover={{ rotate: 4, scale: 1.12, y: -4 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        />
+      </div>
+
+      <div style={styles2.footerContainer}>
+        <footer style={styles2.footer}>
+          <p>© {new Date().getFullYear()} Hannah Lee</p>
+        </footer>
       </div>
     </ResponsiveCanvas>
   );
