@@ -1,4 +1,4 @@
-# 🫧 Hannah Lee Portfolio
+# 🎀 Hannah Lee Website
 
 A modern personal portfolio website built with Next.js to showcase my software engineering projects, technical skills, and experience. Inspired by Pinterest scrapbook and corkboard aesthetics, the site combines handcrafted visuals, playful interactions, and responsive design to create a portfolio that reflects both my personality and my work.
 
