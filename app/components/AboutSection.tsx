@@ -84,7 +84,7 @@ export default function AboutSection() {
       {/* Introduction */}
       <div style={styles.polaroidContainer}>
         <motion.div
-          style={{ ...styles.polaroid, transformOrigin: "center center" }}
+          style={{ ...styles.polaroid, ...styles.polaroidFirst, transformOrigin: "center center" }}
           whileHover={{ scale: 1.05, rotate: -4, y: -4 }}
           transition={{ type: "spring", stiffness: 300, damping: 18 }}
         >

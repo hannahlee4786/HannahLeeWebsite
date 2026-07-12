@@ -92,6 +92,11 @@ const styles = {
     display: "inline-block",
     borderRadius: 2,
   },
+
+  polaroidFirst: {
+    left: -10,
+    top: 0
+  },
   
   ribbon: {
     position: "absolute" as const,
@@ -159,8 +164,8 @@ const styles = {
     zIndex: 30,
     position: "absolute" as const,
     top: -60,
-    left: -40,
-    width: 160,
+    left: -20,
+    width: 140,
   },
 
   flower: {
