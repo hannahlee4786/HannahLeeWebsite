@@ -7,7 +7,6 @@ import Navbar, { Page } from "./Navbar";
 import AboutSection from "./AboutSection";
 import ExperienceSection from "./ExperienceSection";
 import ProjectsSection from "./ProjectsSection";
-import InvolvementsSection from "./InvolvementsSection";
 import styles from "../styles/corkboard.module.css";
 
 export default function Portfolio() {
@@ -30,7 +29,6 @@ export default function Portfolio() {
             {page === "home" && <AboutSection />}
             {page === "experience" && <ExperienceSection />}
             {page === "projects" && <ProjectsSection onNavigate={setPage} />}
-            {page === "involvements" && <InvolvementsSection />}
           </motion.div>
         </AnimatePresence>
       </div>

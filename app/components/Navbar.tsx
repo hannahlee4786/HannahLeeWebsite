@@ -1,6 +1,6 @@
 import React from "react";
 
-export type Page = "home" | "experience" | "projects" | "involvements";
+export type Page = "home" | "experience" | "projects";
 
 interface NavbarProps {
   currentPage: Page;
@@ -10,7 +10,6 @@ interface NavbarProps {
 const homeItems = [
   { label: "Experience", page: "experience" as const },
   { label: "Projects", page: "projects" as const },
-  { label: "Involvement", page: "involvements" as const },
 ];
 
 export default function Navbar({
