@@ -159,24 +159,27 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           src="/images/experiences/react-native.png"
           alt="React Native wax stamp"
           style={styles.reactNative}
-          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://reactnative.dev/", "_blank")}
         />
 
         <motion.img
           src="/images/projects/javascript-wax.png"
           alt="JavaScript wax stamp"
           style={styles.javascript}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://devdocs.io/javascript/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/firebase.png"
           alt="Firebase wax stamp"
           style={styles.firebase}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://firebase.google.com/docs/android/setup?utm_source=google&utm_medium=cpc&utm_campaign=Cloud-SS-DR-Firebase-FY26-global-gsem-1713590&utm_content=text-ad&utm_term=KW_firebase&gclsrc=aw.ds&gad_source=1&gad_campaignid=23417478209&gbraid=0AAAAADpUDOgkonVaQpkNr5Txks669MSQA&gclid=CjwKCAjw08fSBhA7EiwAfbQTsNlBAmeG0gUJo0dGYrLYV4B_2TzaeJ-SBpAHJ1sIsVc7oeHtuvh4EBoCfC0QAvD_BwE", "_blank")}
         />
 
         <motion.img
@@ -247,24 +250,27 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           src="/images/experiences/swift-wax.png"
           alt="Swift wax stamp"
           style={styles.swift}
-          whileHover={{ rotate: 8, scale: 1.08 }}
+          whileHover={{ rotate: 8, scale: 1.08, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.swift.org/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/swiftui-wax.png"
           alt="SwiftUI wax stamp"
           style={styles.swiftui}
-          whileHover={{ rotate: -8, scale: 1.08 }}
+          whileHover={{ rotate: -8, scale: 1.08, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://developer.apple.com/swiftui/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/firebase.png"
           alt="Firebase wax stamp"
           style={styles.firebase2}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://firebase.google.com/docs/android/setup?utm_source=google&utm_medium=cpc&utm_campaign=Cloud-SS-DR-Firebase-FY26-global-gsem-1713590&utm_content=text-ad&utm_term=KW_firebase&gclsrc=aw.ds&gad_source=1&gad_campaignid=23417478209&gbraid=0AAAAADpUDOgkonVaQpkNr5Txks669MSQA&gclid=CjwKCAjw08fSBhA7EiwAfbQTsNlBAmeG0gUJo0dGYrLYV4B_2TzaeJ-SBpAHJ1sIsVc7oeHtuvh4EBoCfC0QAvD_BwE", "_blank")}
         />
 
         <motion.img
@@ -343,32 +349,36 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           src="/images/projects/mongodb.png"
           alt="MongoDB wax stamp"
           style={styles.mongoDB}
-          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.mongodb.com/", "_blank")}
         />
 
         <motion.img
           src="/images/projects/nextjs.png"
           alt="Next.js wax stamp"
           style={styles.nextjs}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://nextjs.org/", "_blank")}
         />
 
         <motion.img
           src="/images/projects/python.png"
           alt="Python wax stamp"
           style={styles.python}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.python.org/doc/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/swift-wax.png"
           alt="Swift wax stamp"
           style={styles.swift2}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.swift.org/", "_blank")}
         />
 
         <motion.img
@@ -452,16 +462,18 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           src="/images/projects/java-wax.png"
           alt="Java wax stamp"
           style={styles.java}
-          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.java.com/en/", "_blank")}
         />
 
         <motion.img
           src="/images/projects/javascript-wax.png"
           alt="JavaScript wax stamp"
           style={styles.javascript2}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://devdocs.io/javascript/", "_blank")}
         />
 
         <motion.img
@@ -567,32 +579,36 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           src="/images/projects/nextjs.png"
           alt="Next.js wax stamp"
           style={styles.nextjs2}
-          whileHover={{ rotate: -8, scale: 1.08 }}
+          whileHover={{ rotate: -8, scale: 1.08, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://nextjs.org/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/typescript-wax.png"
           alt="TypeScript wax stamp"
           style={styles.typescript}
-          whileHover={{ rotate: 8, scale: 1.08 }}
+          whileHover={{ rotate: 8, scale: 1.08, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.typescriptlang.org/", "_blank")}
         />
 
         <motion.img
           src="/images/projects/html.png"
           alt="HTML wax stamp"
           style={styles.html}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://developer.mozilla.org/en-US/docs/Web/HTML", "_blank")}
         />
 
         <motion.img
           src="/images/projects/css.png"
           alt="CSS wax stamp"
           style={styles.css}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://developer.mozilla.org/en-US/docs/Web/CSS", "_blank")}
         />
 
         <motion.img

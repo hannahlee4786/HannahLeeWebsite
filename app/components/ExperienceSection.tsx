@@ -157,16 +157,18 @@ export default function ExperienceSection() {
           src="/images/experiences/typescript-wax.png"
           alt="Typescript wax stamp"
           style={styles.typescript}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.typescriptlang.org/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/aws-wax.png"
           alt="AWS wax stamp"
           style={styles.aws}
-          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://aws.amazon.com/about-aws/", "_blank")}
         />
 
         <motion.img
@@ -370,16 +372,18 @@ export default function ExperienceSection() {
           src="/images/experiences/swift-wax.png"
           alt="Swift wax stamp"
           style={styles.swift}
-          whileHover={{ rotate: 8, scale: 1.08 }}
+          whileHover={{ rotate: 8, scale: 1.08, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.swift.org/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/swiftui-wax.png"
           alt="SwiftUI wax stamp"
           style={styles.swiftui}
-          whileHover={{ rotate: -8, scale: 1.08 }}
+          whileHover={{ rotate: -8, scale: 1.08, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://developer.apple.com/swiftui/", "_blank")}
         />
 
         <motion.div
@@ -468,24 +472,27 @@ export default function ExperienceSection() {
           src="/images/experiences/react-native.png"
           alt="React Native wax stamp"
           style={styles.reactNative}
-          whileHover={{ rotate: -15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://reactnative.dev/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/typescript-wax.png"
           alt="Typescript wax stamp"
           style={styles.typescript2}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.typescriptlang.org/", "_blank")}
         />
 
         <motion.img
           src="/images/experiences/firebase.png"
           alt="Firebase wax stamp"
           style={styles.firebase}
-          whileHover={{ rotate: 15, scale: 1.12, y: -4 }}
+          whileHover={{ rotate: 15, scale: 1.12, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://firebase.google.com/docs/android/setup?utm_source=google&utm_medium=cpc&utm_campaign=Cloud-SS-DR-Firebase-FY26-global-gsem-1713590&utm_content=text-ad&utm_term=KW_firebase&gclsrc=aw.ds&gad_source=1&gad_campaignid=23417478209&gbraid=0AAAAADpUDOgkonVaQpkNr5Txks669MSQA&gclid=CjwKCAjw08fSBhA7EiwAfbQTsNlBAmeG0gUJo0dGYrLYV4B_2TzaeJ-SBpAHJ1sIsVc7oeHtuvh4EBoCfC0QAvD_BwE", "_blank")}
         />
 
         <motion.img
