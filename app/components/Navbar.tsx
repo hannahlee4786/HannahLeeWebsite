@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import styles from "../styles/navbarStyles";
 
 export type Page = "home" | "experience" | "projects";
 
@@ -8,8 +10,18 @@ interface NavbarProps {
 }
 
 const homeItems = [
-  { label: "Experience", page: "experience" as const },
-  { label: "Projects", page: "projects" as const },
+  {
+    label: "Experience",
+    page: "experience" as const,
+    src: "/images/navbar/experience.png",
+    alt: "Experience button",
+  },
+  {
+    label: "Projects",
+    page: "projects" as const,
+    src: "/images/navbar/projects.png",
+    alt: "Projects button",
+  },
 ];
 
 export default function Navbar({
@@ -17,28 +29,30 @@ export default function Navbar({
   onNavigate,
 }: NavbarProps) {
   return (
-    <nav className="w-full flex justify-center py-4">
-      <div className="flex gap-3 rounded-full border border-black/10 bg-white/70 px-4 py-2 shadow-sm backdrop-blur-md">
-
+    <nav style={styles.navbar}>
+      <div style={ currentPage === "home" ? styles.navbarContainer : styles.backContainer} >
         {currentPage === "home" ? (
           homeItems.map((item) => (
-            <button
+            <motion.img
               key={item.page}
+              src={item.src}
+              alt={item.alt}
+              style={{ ...styles.buttons, cursor: "pointer", }}
+              whileHover={{ scale: 1.05, y: -4, }}
+              transition={{ type: "spring", stiffness: 260, damping: 18, }}
               onClick={() => onNavigate(item.page)}
-              className="rounded-full px-4 py-2 text-sm font-medium text-black/70 transition hover:bg-black/5 hover:text-black"
-            >
-              {item.label}
-            </button>
+            />
           ))
         ) : (
-          <button
+          <motion.img
+            src="/images/navbar/back.png"
+            alt="Back"
+            style={{ ...styles.buttons, cursor: "pointer", }}
+            whileHover={{ scale: 1.05, y: -4, }}
+            transition={{ type: "spring", stiffness: 260, damping: 18, }}
             onClick={() => onNavigate("home")}
-            className="rounded-full px-4 py-2 text-sm font-medium text-black/70 transition hover:bg-black/5 hover:text-black"
-          >
-            ← Back
-          </button>
+          />
         )}
-
       </div>
     </nav>
   );
