@@ -542,7 +542,7 @@ const styles = {
 
   java: {
     position: "absolute" as const,
-    top: 2530,
+    top: 2500,
     left: 560,
     width: 200,
     zIndex: 10,
@@ -550,9 +550,17 @@ const styles = {
 
   javascript2: {
     position: "absolute" as const,
-    top: 2720,
-    left: 520,
+    top: 2760,
+    left: 480,
     width: 200,
+    zIndex: 10,
+  },
+
+  springboot: {
+    position: "absolute" as const,
+    top: 2690,
+    left: 670,
+    width: 150,
     zIndex: 10,
   },
 

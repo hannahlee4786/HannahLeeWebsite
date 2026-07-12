@@ -477,6 +477,15 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
         />
 
         <motion.img
+          src="/images/projects/springboot-wax.png"
+          alt="Spring Boot wax stamp"
+          style={styles.springboot}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://spring.io/projects/spring-boot", "_blank")}
+        />
+
+        <motion.img
           src="/images/projects/fifo-sign.png"
           alt="FIFO sign"
           style={styles.fifoSign}
