@@ -407,7 +407,7 @@ export default function ExperienceSection() {
 
         <motion.div
           style={styles.purplePaperContainer}
-          whileHover={{ scale: 1.08 }}
+          whileHover={{ scale: 1.03 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
         >
           <img

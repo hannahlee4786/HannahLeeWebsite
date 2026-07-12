@@ -4,94 +4,94 @@ const styles = {
     height: 130,
     width: 1000,
     marginTop: 40,
-    marginBottom: 20,
+    marginBottom: 10,
     position: "relative" as const,
     left: -48,
     overflow: "visible",
   },
 
   star1: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 14,
-    left: -10,
+    left: 130,
   },
 
   e1: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
-    top: 44,
-    left: 75,
+    top: 40,
+    left: 193,
   },
 
   x: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 14,
-    left: 160,
+    left: 255,
   },
 
   p: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
-    top: 44,
-    left: 245,
+    top: 40,
+    left: 316,
   },
 
   e2: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 16,
-    left: 335,
+    left: 380,
   },
 
   r: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 40,
-    left: 425,
+    left: 446,
   },
 
   i: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 18,
-    left: 518,
+    left: 510,
   },
 
   e3: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 40,
-    left: 610,
+    left: 576,
   },
 
   n: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 19,
-    left: 700,
+    left: 638,
   },
 
   c: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
-    top: 40,
-    left: 795,
+    top: 38,
+    left: 705,
   },
 
   e4: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
     top: 20,
-    left: 888,
+    left: 770,
   },
 
   star2: {
-    height: 70,
+    height: 50,
     position: "absolute" as const,
-    top: 40,
-    left: 970,
+    top: 37,
+    left: 835,
   },
 
   experienceHeader: {
@@ -118,7 +118,7 @@ const styles = {
   },
 
   polaroid2: {
-    left: 230,
+    left: 290,
     top: 80,
   },
 
@@ -137,25 +137,25 @@ const styles = {
 
   dinosaur: {
     position: "absolute" as const,
-    top: 180,
-    left: 710,
-    width: 180,
+    top: 190,
+    left: 690,
+    width: 160,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
 
   cookie: {
     position: "absolute" as const,
-    top: 20,
-    left: 750,
-    width: 140,
+    top: -60,
+    left: 700,
+    width: 130,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
 
   graphPaperContainer: {
     position: "absolute" as const,
-    left: 100,
+    left: 120,
     top: 370,
     transformOrigin: "center center",
   },
@@ -164,23 +164,23 @@ const styles = {
     position: "absolute" as const,
     left: 0,
     top: 40,
-    height: 290,
+    height: 270,
   },
 
   graphPaperText: {
     position: "absolute" as const,
     top: 114,
-    left: 54,
-    width: 700,
+    left: 45,
+    width: 670,
     fontFamily: "Special Elite",
     textAlign: "center" as const,
     lineHeight: 1.8,
-    fontSize: "1rem",
+    fontSize: "0.92rem",
   },
 
   yellowPostItContainer: {
     position: "absolute" as const,
-    left: -230,
+    left: -150,
     top: 0,
     transformOrigin: "center center",
   },
@@ -205,33 +205,32 @@ const styles = {
 
   aws: {
     position: "absolute" as const,
-    top: 60,
+    top: 100,
     left: 640,
-    width: 260,
+    width: 200,
     zIndex: 10,
     transform: "rotate(-3deg)",
   },
 
   typescript: {
     position: "absolute" as const,
-    top: 200,
-    left: 470,
-    width: 230,
+    top: 220,
+    left: 510,
+    width: 200,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
 
   pinkBow: {
     position: "absolute" as const,
-    top: 30,
-    left: 480,
-    width: 170,
+    left: 530,
+    width: 140,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
 
   blueTicket: {
-    width: 320,
+    width: 280,
     position: "absolute" as const,
     top: -30,
     left: -110,
@@ -239,7 +238,7 @@ const styles = {
 
   blueTicketContainer: {
     position: "absolute" as const,
-    left: -120,
+    left: -50,
     top: 480,
     transformOrigin: "center center",
   },
@@ -247,12 +246,12 @@ const styles = {
   h41: {
     position: "absolute" as const,
     top: 24,
-    left: -44,
+    left: -58,
     margin: 0,
     fontFamily: "Sophie Comic",
-    fontSize: 34,
+    fontSize: 30,
     textAlign: "center" as const,
-    width: 190
+    width: 170
   },
 
   experience2Container: {
@@ -265,7 +264,7 @@ const styles = {
 
   pinkPaperContainer: {
     position: "absolute" as const,
-    left: -70,
+    left: 0,
     top: 0,
     transformOrigin: "center center",
   },
@@ -274,24 +273,24 @@ const styles = {
     position: "absolute" as const,
     left: -160,
     top: 40,
-    width: 600,
+    width: 540,
   },
 
   pinkPaperText: {
     position: "absolute" as const,
-    top: 114,
-    left: -110,
-    width: 500,
+    top: 104,
+    left: -113,
+    width: 460,
     fontFamily: "Special Elite",
     textAlign: "center" as const,
     lineHeight: 2,
-    fontSize: "1rem",
+    fontSize: "0.92rem",
   },
 
   makersLogo: {
     position: "absolute" as const,
-    top: -70,
-    left: -120,
+    top: -80,
+    left: -80,
     width: 200,
     zIndex: 10,
     transform: "rotate(-3deg)",
@@ -300,7 +299,7 @@ const styles = {
   makersGroup: {
     position: "absolute" as const,
     top: 20,
-    left: 410,
+    left: 400,
     width: 280,
     transformOrigin: "center center",
   },
@@ -333,22 +332,22 @@ const styles = {
     position: "absolute" as const,
     left: -170,
     top: 40,
-    width: 520,
+    width: 480,
   },
 
   greenPostItText: {
     position: "absolute" as const,
     top: 82,
-    left: -90,
+    left: -100,
     width: 360,
     fontFamily: "Special Elite",
     textAlign: "center" as const,
     lineHeight: 1.9,
-    fontSize: "1rem",
+    fontSize: "0.92rem",
   },
 
   orangeTicket: {
-    width: 400,
+    width: 280,
     position: "absolute" as const,
     top: -30,
     left: -110,
@@ -356,20 +355,20 @@ const styles = {
 
   orangeTicketContainer: {
     position: "absolute" as const,
-    left: -100,
+    left: 14,
     top: 480,
     transformOrigin: "center center",
   },
 
   h42: {
     position: "absolute" as const,
-    top: 40,
-    left: -8,
+    top: 20,
+    left: -52,
     margin: 0,
     fontFamily: "Sophie Comic",
-    fontSize: 36,
+    fontSize: 30,
     textAlign: "center" as const,
-    width: 200
+    width: 170
   },
 
   binderPaperContainer: {
@@ -421,8 +420,8 @@ const styles = {
 
   danceCamCard: {
     position: "absolute" as const,
-    top: 680,
-    left: -180,
+    top: 660,
+    left: -130,
     display: "flex",
     flexDirection: "column" as const,
     alignItems: "center",
@@ -433,14 +432,14 @@ const styles = {
   },
 
   danceCamApp: {
-    width: 450,
+    width: 400,
     display: "block",
   },
 
   danceCamText: {
     position: "absolute" as const,
-    top: 268,
-    left: 300,
+    top: 236,
+    left: 270,
     fontFamily: "Sophie Comic",
     fontSize: 27,
     width: 120,
@@ -452,7 +451,7 @@ const styles = {
   greenYellowPaperContainer: {
     position: "absolute" as const,
     left: -360,
-    top: 800,
+    top: 760,
     transformOrigin: "center center",
   },
 
@@ -497,15 +496,15 @@ const styles = {
     position: "absolute" as const,
     top: 1080,
     left: 340,
-    width: 200,
+    width: 180,
     zIndex: 10,
   },
 
   swiftui: {
     position: "absolute" as const,
-    top: 1280,
+    top: 1250,
     left: 460,
-    width: 170,
+    width: 160,
     zIndex: 10,
     transform: "rotate(-3deg)",
   },
@@ -539,7 +538,7 @@ const styles = {
   pinkTicketContainer: {
     position: "absolute" as const,
     left: -20,
-    top: 1530,
+    top: 1500,
     transformOrigin: "center center",
   },
 
@@ -593,7 +592,7 @@ const styles = {
 
   polaroid4: {
     left: -185,
-    top: 1570,
+    top: 1530,
   },
 
   h34: {
@@ -617,7 +616,7 @@ const styles = {
   bluePaperContainer: {
     position: "absolute" as const,
     left: -160,
-    top: 2030,
+    top: 2000,
     transformOrigin: "center center",
   },
 
@@ -654,18 +653,18 @@ const styles = {
 
   typescript2: {
     position: "absolute" as const,
-    top: 1890,
+    top: 1870,
     left: 220,
-    width: 210,
+    width: 160,
     zIndex: 10,
     transform: "rotate(-3deg)",
   },
 
   reactNative: {
     position: "absolute" as const,
-    top: 1880,
+    top: 1850,
     left: 410,
-    width: 190,
+    width: 140,
     zIndex: 10,
     transform: "rotate(5deg)",
   },
@@ -673,15 +672,15 @@ const styles = {
   firebase: {
     position: "absolute" as const,
     top: 1870,
-    left: -230,
-    width: 210,
+    left: -170,
+    width: 150,
     zIndex: 10,
     transform: "rotate(-3deg)",
   },
 
   capybara: {
     position: "absolute" as const,
-    top: 2270,
+    top: 2240,
     left: 520,
     width: 100,
     zIndex: 10,
