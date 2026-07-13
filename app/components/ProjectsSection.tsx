@@ -477,6 +477,15 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
         />
 
         <motion.img
+          src="/images/projects/mysql.png"
+          alt="MySQL wax stamp"
+          style={styles.mysql}
+          whileHover={{ rotate: -15, scale: 1.12, y: -4, cursor: "pointer" }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          onClick={() => window.open("https://www.mysql.com/", "_blank")}
+        />
+
+        <motion.img
           src="/images/projects/springboot-wax.png"
           alt="Spring Boot wax stamp"
           style={styles.springboot}
@@ -552,21 +561,15 @@ export default function ProjectsSection({ onNavigate }: ProjectsSectionProps) {
           onClick={() => window.open("https://github.com/hannahlee4786/HannahLee", "_blank")}
         />
 
-        <motion.div
-          style={{ ...styles.pinterestContainer, cursor: "pointer" }}
+        <motion.img
+          src="/images/projects/pinterest.png"
+          alt="Pinterest inspo page"
+          style={styles.pinterest}
           whileTap={{ scale: 0.98 }}
           whileHover={{ scale: 1.05, y: -4, cursor: "pointer" }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
-          onClick={() => window.open("https://www.pinterest.com/pin/1097541371703194468/", "_blank")}
-        >
-          <img
-            src="/images/projects/pinterest.png"
-            alt="Pinterest inspo page"
-            style={styles.pinterest}
-          />
-
-          <h3 style={styles.h34}>@wloeun on Pinterest</h3>
-        </motion.div>
+          onClick={() => window.open("https://www.pinterest.com/pin/424534702396786353/", "_blank")}
+        />
 
         <motion.div
           style={styles.whitePostItContainer}

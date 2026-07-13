@@ -542,25 +542,33 @@ const styles = {
 
   java: {
     position: "absolute" as const,
-    top: 2500,
-    left: 560,
+    top: 2485,
+    left: 600,
     width: 200,
     zIndex: 10,
   },
 
   javascript2: {
     position: "absolute" as const,
-    top: 2760,
+    top: 2780,
     left: 480,
-    width: 200,
+    width: 180,
+    zIndex: 10,
+  },
+
+  mysql: {
+    position: "absolute" as const,
+    top: 2690,
+    left: 670,
+    width: 150,
     zIndex: 10,
   },
 
   springboot: {
     position: "absolute" as const,
-    top: 2690,
-    left: 670,
-    width: 150,
+    top: 2660,
+    left: 520,
+    width: 120,
     zIndex: 10,
   },
 
@@ -645,28 +653,11 @@ const styles = {
 
   pinterest: {
     position: "absolute" as const,
-    width: 400,
-    zIndex: 10,
-    borderRadius: 30,
-    backgroundColor: "#a9cff4",
-    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
-  },
-
-  h34: {
-    position: "absolute" as const,
-    top: 256,
-    left: 100,
-    fontFamily: "Sophie Comic",
-    fontSize: 25,
-    zIndex: 20,
-    width: 400
-  },
-
-  pinterestContainer: {
-    position: "absolute" as const,
-    top: 3420,
+    top: 3440,
     left: -30,
-    transformOrigin: "center center",
+    width: 420,
+    zIndex: 10,
+    boxShadow: "0 4px 12px rgba(0,0,0,0.45)",
   },
 
   whitePostItContainer: {

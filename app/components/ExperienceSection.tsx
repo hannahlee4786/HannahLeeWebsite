@@ -202,7 +202,7 @@ export default function ExperienceSection() {
           initial={{ rotate: -14 }}
           whileHover={{ rotate: 8, scale: 1.08, cursor: "pointer"}}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
-          onClick={() => window.open("https://github.com/uscmakers/FIFO", "_blank")}
+          onClick={() => window.open("https://viterbimakers.usc.edu/", "_blank")}
         />
 
         <motion.div
